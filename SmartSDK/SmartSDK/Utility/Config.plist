@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthBaseURL</key>
+	<dict>
+		<key>Prod</key>
+		<string>https://authentication.zestmoney.in/</string>
+		<key>Staging</key>
+		<string>https://staging-auth.zestmoney.in/</string>
+	</dict>
+	<key>BaseURL</key>
+	<dict>
+		<key>Prod</key>
+		<string>https://app.zestmoney.in/</string>
+		<key>Staging</key>
+		<string>https://staging-app.zestmoney.in/</string>
+	</dict>
+</dict>
+</plist>
