@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>755104195551-lifutbffve93r9oqtg1hdqs5t4ppfqqr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.755104195551-lifutbffve93r9oqtg1hdqs5t4ppfqqr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>755104195551-4n5pvku2big9oaliptummrpmfi0bf4n2.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBMVFvI4hR5nvzygUZpKwV5Q_ahuHwH7ZQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>755104195551</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zestmoney.consumer.staging</string>
+	<key>PROJECT_ID</key>
+	<string>zestlife-android-staging</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zestlife-android-staging.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:755104195551:ios:5f3aed25e50886518c1a6a</string>
+	<key>DATABASE_URL</key>
+	<string>https://zestlife-android-staging.firebaseio.com</string>
+</dict>
+</plist>

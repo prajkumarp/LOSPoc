@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     private func setupUI(){
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = .white
     }
 
 
