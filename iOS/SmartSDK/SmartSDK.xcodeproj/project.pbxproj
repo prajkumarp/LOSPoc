@@ -32,6 +32,33 @@
 		E146AAB02B7C64710076A224 /* UnderConstruction6.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA972B7C64710076A224 /* UnderConstruction6.json */; };
 		E146AAB12B7C64710076A224 /* UnderConstruction4.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA982B7C64710076A224 /* UnderConstruction4.json */; };
 		E146AAB22B7C64710076A224 /* animationBG1.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA992B7C64710076A224 /* animationBG1.json */; };
+		E1C7D1AB2B8766A200CCED1A /* SDKEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1AA2B8766A200CCED1A /* SDKEnums.swift */; };
+		E1C7D1B02B87687200CCED1A /* LaunchPageScreenObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1AF2B87687200CCED1A /* LaunchPageScreenObject.swift */; };
+		E1C7D1BB2B8778CB00CCED1A /* FontsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1B62B8778CB00CCED1A /* FontsCollection.swift */; };
+		E1C7D1BC2B8778CB00CCED1A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1B72B8778CB00CCED1A /* Theme.swift */; };
+		E1C7D1BD2B8778CB00CCED1A /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1B82B8778CB00CCED1A /* ThemeData.swift */; };
+		E1C7D1BE2B8778CB00CCED1A /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1B92B8778CB00CCED1A /* ColorPalette.swift */; };
+		E1C7D1BF2B8778CB00CCED1A /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1BA2B8778CB00CCED1A /* ThemeManager.swift */; };
+		E1C7D1C12B87799800CCED1A /* ThemeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1C02B87799800CCED1A /* ThemeConstants.swift */; };
+		E1C7D1DF2B877CF400CCED1A /* UnderConstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1D92B877CF400CCED1A /* UnderConstructionViewController.swift */; };
+		E1C7D1E02B877CF400CCED1A /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1DA2B877CF400CCED1A /* BottomSheetViewController.swift */; };
+		E1C7D1E22B877CF400CCED1A /* WebviewWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1DC2B877CF400CCED1A /* WebviewWithViewController.swift */; };
+		E1C7D1E32B877CF400CCED1A /* ViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1DD2B877CF400CCED1A /* ViewWithBorder.swift */; };
+		E1C7D1E42B877CF400CCED1A /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1DE2B877CF400CCED1A /* SectionView.swift */; };
+		E1C7D1E92B877D5000CCED1A /* LZViewPagerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1E62B877D5000CCED1A /* LZViewPagerContent.swift */; };
+		E1C7D1EA2B877D5000CCED1A /* LZViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1E72B877D5000CCED1A /* LZViewPager.swift */; };
+		E1C7D1EB2B877D5000CCED1A /* LZViewPagerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1E82B877D5000CCED1A /* LZViewPagerHeader.swift */; };
+		E1C7D1F12B877D6E00CCED1A /* SOTabBarSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1ED2B877D6E00CCED1A /* SOTabBarSetting.swift */; };
+		E1C7D1F22B877D6E00CCED1A /* SOTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1EE2B877D6E00CCED1A /* SOTabBarItem.swift */; };
+		E1C7D1F32B877D6E00CCED1A /* SOTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1EF2B877D6E00CCED1A /* SOTabBar.swift */; };
+		E1C7D1F42B877D6E00CCED1A /* SOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1F02B877D6E00CCED1A /* SOTabBarController.swift */; };
+		E1C7D2042B8798AA00CCED1A /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1FB2B8798AA00CCED1A /* ImageHelper.swift */; };
+		E1C7D2062B8798AA00CCED1A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D1FD2B8798AA00CCED1A /* Utility.swift */; };
+		E1C7D2082B8798AA00CCED1A /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7D2002B8798AA00CCED1A /* iOSDevCenters+GIF.swift */; };
+		E1C7D20D2B879AAF00CCED1A /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D20C2B879AAF00CCED1A /* SVGKit */; };
+		E1C7D20F2B879AAF00CCED1A /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D20E2B879AAF00CCED1A /* SVGKitSwift */; };
+		E1C7D2122B879ADD00CCED1A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D2112B879ADD00CCED1A /* SnapKit */; };
+		E1C7D2142B879ADD00CCED1A /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D2132B879ADD00CCED1A /* SnapKit-Dynamic */; };
 		E425A9AD2B8476DC000AF998 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E425A9AC2B8476DC000AF998 /* Lottie */; };
 		E4A2C2C52B79F01F0077CBFB /* SmartSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */; };
 		E4A2C2CB2B79F01F0077CBFB /* SmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */; };
@@ -40,7 +67,6 @@
 		E4A2C2DD2B79F2420077CBFB /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */; };
 		E4A2C2DF2B79F40F0077CBFB /* SmartFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2DE2B79F40F0077CBFB /* SmartFramework.swift */; };
 		E4D086962B85FD76003E3C16 /* ConfigHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D086952B85FD76003E3C16 /* ConfigHelper.swift */; };
-		E4D086982B85FDE1003E3C16 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4D086972B85FDE1003E3C16 /* Config.plist */; };
 		E4D0869B2B863452003E3C16 /* LaunchLayoutConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +106,29 @@
 		E146AA972B7C64710076A224 /* UnderConstruction6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnderConstruction6.json; sourceTree = "<group>"; };
 		E146AA982B7C64710076A224 /* UnderConstruction4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnderConstruction4.json; sourceTree = "<group>"; };
 		E146AA992B7C64710076A224 /* animationBG1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationBG1.json; sourceTree = "<group>"; };
+		E1C7D1AA2B8766A200CCED1A /* SDKEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKEnums.swift; sourceTree = "<group>"; };
+		E1C7D1AF2B87687200CCED1A /* LaunchPageScreenObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPageScreenObject.swift; sourceTree = "<group>"; };
+		E1C7D1B62B8778CB00CCED1A /* FontsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsCollection.swift; sourceTree = "<group>"; };
+		E1C7D1B72B8778CB00CCED1A /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E1C7D1B82B8778CB00CCED1A /* ThemeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		E1C7D1B92B8778CB00CCED1A /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		E1C7D1BA2B8778CB00CCED1A /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		E1C7D1C02B87799800CCED1A /* ThemeConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeConstants.swift; sourceTree = "<group>"; };
+		E1C7D1D92B877CF400CCED1A /* UnderConstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderConstructionViewController.swift; sourceTree = "<group>"; };
+		E1C7D1DA2B877CF400CCED1A /* BottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		E1C7D1DC2B877CF400CCED1A /* WebviewWithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewWithViewController.swift; sourceTree = "<group>"; };
+		E1C7D1DD2B877CF400CCED1A /* ViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithBorder.swift; sourceTree = "<group>"; };
+		E1C7D1DE2B877CF400CCED1A /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		E1C7D1E62B877D5000CCED1A /* LZViewPagerContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPagerContent.swift; sourceTree = "<group>"; };
+		E1C7D1E72B877D5000CCED1A /* LZViewPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPager.swift; sourceTree = "<group>"; };
+		E1C7D1E82B877D5000CCED1A /* LZViewPagerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZViewPagerHeader.swift; sourceTree = "<group>"; };
+		E1C7D1ED2B877D6E00CCED1A /* SOTabBarSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOTabBarSetting.swift; sourceTree = "<group>"; };
+		E1C7D1EE2B877D6E00CCED1A /* SOTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOTabBarItem.swift; sourceTree = "<group>"; };
+		E1C7D1EF2B877D6E00CCED1A /* SOTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOTabBar.swift; sourceTree = "<group>"; };
+		E1C7D1F02B877D6E00CCED1A /* SOTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOTabBarController.swift; sourceTree = "<group>"; };
+		E1C7D1FB2B8798AA00CCED1A /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		E1C7D1FD2B8798AA00CCED1A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E1C7D2002B8798AA00CCED1A /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C2C32B79F01F0077CBFB /* SmartSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartSDK.h; sourceTree = "<group>"; };
 		E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SmartSDK.docc; sourceTree = "<group>"; };
@@ -88,7 +137,6 @@
 		E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		E4A2C2DE2B79F40F0077CBFB /* SmartFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFramework.swift; sourceTree = "<group>"; };
 		E4D086952B85FD76003E3C16 /* ConfigHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigHelper.swift; sourceTree = "<group>"; };
-		E4D086972B85FDE1003E3C16 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchLayoutConfigData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C7D2142B879ADD00CCED1A /* SnapKit-Dynamic in Frameworks */,
+				E1C7D20F2B879AAF00CCED1A /* SVGKitSwift in Frameworks */,
+				E1C7D2122B879ADD00CCED1A /* SnapKit in Frameworks */,
+				E1C7D20D2B879AAF00CCED1A /* SVGKit in Frameworks */,
 				E425A9AD2B8476DC000AF998 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +167,8 @@
 		E146AA7E2B7C63D40076A224 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				E1C7D1D82B877CBB00CCED1A /* UI */,
+				E1C7D1B52B8778A400CCED1A /* Theme */,
 				E4D086992B86342C003E3C16 /* Model */,
 				E4D086942B85FD1B003E3C16 /* Helpers */,
 			);
@@ -124,7 +178,6 @@
 		E146AA7F2B7C64340076A224 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E146AAB32B7C64850076A224 /* images */,
 				E146AA802B7C643C0076A224 /* lottie */,
 			);
 			path = Assets;
@@ -162,11 +215,77 @@
 			path = lottie;
 			sourceTree = "<group>";
 		};
-		E146AAB32B7C64850076A224 /* images */ = {
+		E1C7D1AC2B87679B00CCED1A /* LandingPage */ = {
 			isa = PBXGroup;
 			children = (
+				E1C7D1AE2B8767F600CCED1A /* Model */,
+				E1C7D1AD2B8767AA00CCED1A /* ViewController */,
 			);
-			path = images;
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		E1C7D1AD2B8767AA00CCED1A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E1C7D1AE2B8767F600CCED1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1AF2B87687200CCED1A /* LaunchPageScreenObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C7D1B52B8778A400CCED1A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1C02B87799800CCED1A /* ThemeConstants.swift */,
+				E1C7D1B92B8778CB00CCED1A /* ColorPalette.swift */,
+				E1C7D1B62B8778CB00CCED1A /* FontsCollection.swift */,
+				E1C7D1B72B8778CB00CCED1A /* Theme.swift */,
+				E1C7D1B82B8778CB00CCED1A /* ThemeData.swift */,
+				E1C7D1BA2B8778CB00CCED1A /* ThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E1C7D1D82B877CBB00CCED1A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1EC2B877D5D00CCED1A /* SOTabBar */,
+				E1C7D1E52B877D3A00CCED1A /* LZViewPager */,
+				E1C7D1DA2B877CF400CCED1A /* BottomSheetViewController.swift */,
+				E1C7D1DE2B877CF400CCED1A /* SectionView.swift */,
+				E1C7D1D92B877CF400CCED1A /* UnderConstructionViewController.swift */,
+				E1C7D1DD2B877CF400CCED1A /* ViewWithBorder.swift */,
+				E1C7D1DC2B877CF400CCED1A /* WebviewWithViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E1C7D1E52B877D3A00CCED1A /* LZViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1E72B877D5000CCED1A /* LZViewPager.swift */,
+				E1C7D1E62B877D5000CCED1A /* LZViewPagerContent.swift */,
+				E1C7D1E82B877D5000CCED1A /* LZViewPagerHeader.swift */,
+			);
+			path = LZViewPager;
+			sourceTree = "<group>";
+		};
+		E1C7D1EC2B877D5D00CCED1A /* SOTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1EF2B877D6E00CCED1A /* SOTabBar.swift */,
+				E1C7D1F02B877D6E00CCED1A /* SOTabBarController.swift */,
+				E1C7D1EE2B877D6E00CCED1A /* SOTabBarItem.swift */,
+				E1C7D1ED2B877D6E00CCED1A /* SOTabBarSetting.swift */,
+			);
+			path = SOTabBar;
 			sourceTree = "<group>";
 		};
 		E4A2C2B62B79F01F0077CBFB = {
@@ -190,11 +309,11 @@
 		E4A2C2C22B79F01F0077CBFB /* SmartSDK */ = {
 			isa = PBXGroup;
 			children = (
+				E1C7D1AC2B87679B00CCED1A /* LandingPage */,
 				E146AA7F2B7C64340076A224 /* Assets */,
 				E146AA7E2B7C63D40076A224 /* Utility */,
 				E4A2C2C32B79F01F0077CBFB /* SmartSDK.h */,
 				E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */,
-				E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */,
 				E4A2C2DE2B79F40F0077CBFB /* SmartFramework.swift */,
 			);
 			path = SmartSDK;
@@ -211,7 +330,9 @@
 		E4D086942B85FD1B003E3C16 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				E4D086972B85FDE1003E3C16 /* Config.plist */,
+				E1C7D1FB2B8798AA00CCED1A /* ImageHelper.swift */,
+				E1C7D2002B8798AA00CCED1A /* iOSDevCenters+GIF.swift */,
+				E1C7D1FD2B8798AA00CCED1A /* Utility.swift */,
 				E4D086952B85FD76003E3C16 /* ConfigHelper.swift */,
 			);
 			path = Helpers;
@@ -221,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */,
+				E1C7D1AA2B8766A200CCED1A /* SDKEnums.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +377,10 @@
 			name = SmartSDK;
 			packageProductDependencies = (
 				E425A9AC2B8476DC000AF998 /* Lottie */,
+				E1C7D20C2B879AAF00CCED1A /* SVGKit */,
+				E1C7D20E2B879AAF00CCED1A /* SVGKitSwift */,
+				E1C7D2112B879ADD00CCED1A /* SnapKit */,
+				E1C7D2132B879ADD00CCED1A /* SnapKit-Dynamic */,
 			);
 			productName = SmartSDK;
 			productReference = E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */;
@@ -307,6 +433,8 @@
 			mainGroup = E4A2C2B62B79F01F0077CBFB;
 			packageReferences = (
 				E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				E1C7D20B2B879AAF00CCED1A /* XCRemoteSwiftPackageReference "SVGKit" */,
+				E1C7D2102B879ADD00CCED1A /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = E4A2C2C12B79F01F0077CBFB /* Products */;
 			projectDirPath = "";
@@ -335,7 +463,6 @@
 				E146AAAB2B7C64710076A224 /* UnderConstruction3.json in Resources */,
 				E146AAA52B7C64710076A224 /* UnderConstruction14.json in Resources */,
 				E146AA9C2B7C64710076A224 /* threedots.json in Resources */,
-				E4D086982B85FDE1003E3C16 /* Config.plist in Resources */,
 				E146AAB12B7C64710076A224 /* UnderConstruction4.json in Resources */,
 				E146AAA72B7C64710076A224 /* UnderConstruction7.json in Resources */,
 				E146AA9B2B7C64710076A224 /* aim1.json in Resources */,
@@ -366,11 +493,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C7D1BC2B8778CB00CCED1A /* Theme.swift in Sources */,
+				E1C7D1BD2B8778CB00CCED1A /* ThemeData.swift in Sources */,
+				E1C7D2042B8798AA00CCED1A /* ImageHelper.swift in Sources */,
 				E4A2C2DF2B79F40F0077CBFB /* SmartFramework.swift in Sources */,
+				E1C7D1AB2B8766A200CCED1A /* SDKEnums.swift in Sources */,
+				E1C7D1E42B877CF400CCED1A /* SectionView.swift in Sources */,
+				E1C7D1F42B877D6E00CCED1A /* SOTabBarController.swift in Sources */,
 				E4A2C2DD2B79F2420077CBFB /* LandingPageViewController.swift in Sources */,
+				E1C7D2062B8798AA00CCED1A /* Utility.swift in Sources */,
+				E1C7D1E92B877D5000CCED1A /* LZViewPagerContent.swift in Sources */,
+				E1C7D1B02B87687200CCED1A /* LaunchPageScreenObject.swift in Sources */,
 				E4D0869B2B863452003E3C16 /* LaunchLayoutConfigData.swift in Sources */,
+				E1C7D1C12B87799800CCED1A /* ThemeConstants.swift in Sources */,
+				E1C7D1F22B877D6E00CCED1A /* SOTabBarItem.swift in Sources */,
+				E1C7D1F12B877D6E00CCED1A /* SOTabBarSetting.swift in Sources */,
+				E1C7D1EA2B877D5000CCED1A /* LZViewPager.swift in Sources */,
 				E4A2C2C52B79F01F0077CBFB /* SmartSDK.docc in Sources */,
+				E1C7D1F32B877D6E00CCED1A /* SOTabBar.swift in Sources */,
+				E1C7D1BB2B8778CB00CCED1A /* FontsCollection.swift in Sources */,
+				E1C7D2082B8798AA00CCED1A /* iOSDevCenters+GIF.swift in Sources */,
+				E1C7D1DF2B877CF400CCED1A /* UnderConstructionViewController.swift in Sources */,
 				E4D086962B85FD76003E3C16 /* ConfigHelper.swift in Sources */,
+				E1C7D1EB2B877D5000CCED1A /* LZViewPagerHeader.swift in Sources */,
+				E1C7D1BE2B8778CB00CCED1A /* ColorPalette.swift in Sources */,
+				E1C7D1E02B877CF400CCED1A /* BottomSheetViewController.swift in Sources */,
+				E1C7D1E32B877CF400CCED1A /* ViewWithBorder.swift in Sources */,
+				E1C7D1E22B877CF400CCED1A /* WebviewWithViewController.swift in Sources */,
+				E1C7D1BF2B8778CB00CCED1A /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +799,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E1C7D20B2B879AAF00CCED1A /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		E1C7D2102B879ADD00CCED1A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 		E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
@@ -660,6 +826,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E1C7D20C2B879AAF00CCED1A /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C7D20B2B879AAF00CCED1A /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		E1C7D20E2B879AAF00CCED1A /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C7D20B2B879AAF00CCED1A /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		E1C7D2112B879ADD00CCED1A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C7D2102B879ADD00CCED1A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E1C7D2132B879ADD00CCED1A /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C7D2102B879ADD00CCED1A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
 		E425A9AC2B8476DC000AF998 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */;

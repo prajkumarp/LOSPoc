@@ -24,7 +24,7 @@ public class ConfigHelper{
         config = try? PropertyListSerialization.propertyList(from: configData!, options: [], format: nil) as? [String: Any]
     }
     
-    func getLayoutConfig(filename : String) -> LaunchLayoutConfigData? {
+    public func getLayoutConfig(filename : String) -> LaunchLayoutConfigData? {
         
         let fileURL = Bundle.main.url(forResource: filename, withExtension: "json")
 

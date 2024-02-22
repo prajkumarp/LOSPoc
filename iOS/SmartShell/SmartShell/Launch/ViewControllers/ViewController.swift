@@ -11,7 +11,7 @@ import SmartSDK
 
 class ViewController: UIViewController {
     
-    let sdkInstance = SmartFramework(jsonString: "")
+    var sdkInstance = SmartFramework.sharedInstance
     
     
     // MARK: - Local variables
@@ -25,12 +25,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.setupUI()
+        sdkInstance.setLaunchConfig(filename: "layout1")
     }
     
     private func setupUI(){
         self.view.backgroundColor = .white
-    
-        let ch = ConfigHelper.sharedInstance
 
     }
 

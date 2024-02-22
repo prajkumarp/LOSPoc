@@ -1,0 +1,803 @@
+ {
+     "Global": {
+         "theme": {
+             "primary": "red",
+             "secondary": "blue" 
+        },
+         "errorMethods": {
+             "http": {
+                
+            } 
+        } 
+    },
+     "journey": {
+         "pages": [
+             {
+                 "id": "64e4ea0f19647c1948bbfae4",
+                 "name": "holdingScreen",
+                 "state": [
+                    
+                ],
+                 "body": {
+                     "type": "column",
+                     "attribute": {
+                        
+                    },
+                     "style": {
+                         "margin": "20px" 
+                    },
+                     "container": [
+                         {
+                             "type": "row",
+                             "attribute": {
+                                
+                            },
+                             "style": {
+                                 "padding": "20px",
+                                 "justify-content": "space-between",
+                                 "align-items": "center" 
+                            },
+                             "section": [
+                                 {
+                                     "type": "row",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                        
+                                    },
+                                     "sectionName": "section11",
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "id": "welcomeText",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                 "background-color": "blue",
+                                                 "padding": "0px 20px 5px 15px",
+                                                 "border-radius": "10px",
+                                                 "margin-right": "5px" 
+                                            } 
+                                        },
+                                         {
+                                             "type": "text",
+                                             "id": "welcomeText",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                 "background-color": "blue",
+                                                 "padding": "0px 20px 5px 15px",
+                                                 "border-radius": "10px",
+                                                 "margin-right": "5px" 
+                                            } 
+                                        },
+                                         {
+                                             "type": "text",
+                                             "id": "welcomeText",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                 "background-color": "grey",
+                                                 "padding": "0px 20px 5px 15px",
+                                                 "border-radius": "10px" 
+                                            } 
+                                        } 
+                                    ] 
+                                },
+                                 {
+                                     "type": "text",
+                                     "id": "welcomeText",
+                                     "attribute": {
+                                         "text": "FAQs" 
+                                    },
+                                     "style": {
+                                         "text-decoration": "underline",
+                                         "color": "blue" 
+                                    } 
+                                } 
+                            ],
+                             "sectionName": "section1" 
+                        },
+                         {
+                             "type": "text",
+                             "id": "welcomeText",
+                             "attribute": {
+                                 "text": "Select the holdings to pledge" 
+                            },
+                             "style": {
+                                 "font-size": "x-large",
+                                 "font-weight": "bolder" 
+                            } 
+                        },
+                         {
+                             "type": "column",
+                             "attribute": {
+                                 
+                            },
+                             "style": {
+                                 "margin-top": "25px" 
+                            },
+                             "section": [
+                                 {
+                                     "type": "row",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                         "justify-content": "space-between",
+                                         "align-items": "center",
+                                         "padding-bottom": "20px" 
+                                    },
+                                     "sectionName": "section21",
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Mutual funds - Equity" 
+                                            },
+                                             "style": {
+                                                 "font-size": "large",
+                                                 "font-weight": "bolder" 
+                                            }  
+                                        },
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "2 Holdings" 
+                                            },
+                                             "style": {
+                                                 "color": "blue" 
+                                            }  
+                                        } 
+                                    ] 
+                                },
+                                 {
+                                     "type": "column",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                         "border-radius": "10px",
+                                         "border": "1px solid gray",
+                                         "padding": "10px 0px 0px 10px",
+                                         "margin-bottom": "20px"  
+                                    },
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Mirae Asset ELSS Tax Saver" 
+                                            },
+                                             "style": {
+                                                 "font-weight": "bolder" 
+                                            } 
+                                        },
+                                         {
+                                             "type": "row",
+                                             "attribute": {
+                                                
+                                            },
+                                             "sectionName": "section221",
+                                             "style": {
+                                                "justify-content": "space-between",
+                                                "padding-top": "15px"
+                                            },
+                                             "section": [
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        
+                                                    },
+                                                     "sectionName": "section2211",
+                                                     "children": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Current" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "₹ 90,028.00" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                },
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "padding-right": "110px"
+                                                    },
+                                                     "sectionName": "section2212",
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Unit" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "865" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                },
+                                                 {
+                                                     "type": "row",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "background-color": "blue",
+                                                        "padding": "10px 25px 10px 10px",
+                                                        "margin": "20px 0px 0px 0px",
+                                                        "border-radius": "15px 0px 10px 0px"
+                                                    },
+                                                     "sectionName": "section2213",
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                "text": "Add"
+                                                            },
+                                                             "style": {
+                                                                "color": "white"
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                } 
+                                            ] 
+                                        } 
+                                    ],
+                                     "sectionName": "section22" 
+                                },
+                                 {
+                                     "type": "column",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                         "border-radius": "10px",
+                                         "border": "1px solid gray",
+                                         "padding": "10px 0px 0px 10px",
+                                         "margin-bottom": "20px"  
+                                    },
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Axis Bluechip Fund" 
+                                            },
+                                             "style": {
+                                                 "font-weight": "bolder" 
+                                            } 
+                                        },
+                                         {
+                                             "type": "row",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                "justify-content": "space-between",
+                                                "padding-top": "15px"
+                                            },
+                                             "section": [
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        
+                                                    },
+                                                     "sectionName": "section2311",
+                                                     "section ": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Current" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "₹ 2,05,346" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                },
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "padding-right": "110px"
+                                                    },
+                                                     "sectionName": "section2312",
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Unit" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "3567" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                },
+                                                 {
+                                                     "type": "row",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "background-color": "blue",
+                                                        "padding": "10px 25px 10px 10px",
+                                                        "margin": "20px 0px 0px 0px",
+                                                        "border-radius": "15px 0px 10px 0px"
+                                                    },
+                                                     "sectionName": "section2313",
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                "text": "Add"
+                                                            },
+                                                             "style": {
+                                                                "color": "white"
+                                                            } 
+                                                        } 
+                                                    ] 
+                                                } 
+                                            ],
+                                             "sectionName": "section231" 
+                                        }  
+                                    ],
+                                     "sectionName": "section23" 
+                                },
+                                 {
+                                     "type": "row",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                         "justify-content": "space-between",
+                                         "align-items": "center",
+                                         "padding-bottom": "20px" 
+                                    },
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Mutual funds - Debt" 
+                                            },
+                                             "style": {
+                                                 "font-size": "large",
+                                                 "font-weight": "bolder" 
+                                            }  
+                                        },
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "2 Holdings" 
+                                            },
+                                             "style": {
+                                                 "color": "blue" 
+                                            }  
+                                        } 
+                                    ],
+                                     "sectionName": "section24"  
+                                },
+                                 {
+                                     "type": "column",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                         "border-radius": "10px",
+                                         "border": "1px solid gray",
+                                         "padding": "10px 0px 0px 10px",
+                                         "margin-bottom": "20px"  
+                                    },
+                                     "section": [
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Parag Parikh Growth" 
+                                            },
+                                             "style": {
+                                                 "font-weight": "bolder" 
+                                            } 
+                                        },
+                                         {
+                                             "type": "row",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                "justify-content": "space-between",
+                                                "padding-top": "15px"
+                                            },
+                                             "section": [
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        
+                                                    },
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Current" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "₹18,881" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ],
+                                                     "sectionName": "section2511" 
+                                                },
+                                                 {
+                                                     "type": "column",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "padding-right": "110px"
+                                                    },
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "Unit" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        },
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                 "text": "42" 
+                                                            },
+                                                             "style": {
+                                                                 
+                                                            } 
+                                                        } 
+                                                    ],
+                                                     "sectionName": "section2512" 
+                                                },
+                                                 {
+                                                     "type": "row",
+                                                     "attribute": {
+                                                        
+                                                    },
+                                                     "style": {
+                                                        "background-color": "blue",
+                                                        "padding": "10px 25px 10px 10px",
+                                                        "margin": "20px 0px 0px 0px",
+                                                        "border-radius": "15px 0px 10px 0px"
+                                                    },
+                                                     "section": [
+                                                         {
+                                                             "type": "text",
+                                                             "attribute": {
+                                                                "text": "Add"
+                                                            },
+                                                             "style": {
+                                                                "color": "white"
+                                                            } 
+                                                        } 
+                                                    ],
+                                                     "sectionName": "section2513" 
+                                                } 
+                                            ],
+                                             "sectionName": "section251" 
+                                        } 
+                                    ],
+                                     "sectionName": "section25"  
+                                } 
+                            ],
+                             "sectionName": "section2" 
+                        },
+                         {
+                             "type": "row",
+                             "attribute": {
+                                
+                            },
+                             "style": {
+                                 "justify-content": "space-between",
+                                 "align-items": "center",
+                                 "background-color": "blue",
+                                 "position": "fixed",
+                                 "left": 0,
+                                 "bottom": 0,
+                                 "width": "100%",
+                                 "padding": "20px"  
+                            },
+                             "section": [
+                                 {
+                                     "type": "column",
+                                     "attribute": {
+                                        
+                                    },
+                                     "style": {
+                                        
+                                    },
+                                     "section": [
+                                         {
+                                             "type": "row",
+                                             "attribute": {
+                                                
+                                            },
+                                             "style": {
+                                                
+                                            },
+                                             "section": [
+                                                 {
+                                                     "type": "text",
+                                                     "attribute": {
+                                                         "text": "₹ 11,23,400" 
+                                                    },
+                                                     "style": {
+                                                         "color": "white",
+                                                         "padding-right": "7px" 
+                                                    } 
+                                                },
+                                                 {
+                                                     "type": "text",
+                                                     "attribute": {
+                                                         "text": "Breakdown" 
+                                                    },
+                                                     "style": {
+                                                         "color": "white",
+                                                         "text-decoration": "underline",
+                                                         "opacity": 0.5  
+                                                    } 
+                                                } 
+                                            ],
+                                             "sectionName": "section322" 
+                                        },
+                                         {
+                                             "type": "text",
+                                             "attribute": {
+                                                 "text": "Available Loan Amount" 
+                                            },
+                                             "style": {
+                                                 "color": "white",
+                                                 "padding-right": "7px",
+                                                 "opacity": 0.7 
+                                            } 
+                                        } 
+                                    ],
+                                     "sectionName": "section31" 
+                                },
+                                 {
+                                     "type": "button",
+                                     "id": "continueButton",
+                                     "attribute": {
+                                         "title": "Continue" 
+                                    },
+                                     "style": {
+                                         "text-align": "center",
+                                         "border-radius": "30px",
+                                         "color": "blue",
+                                         "background-color": "white",
+                                         "padding-right": "30px",
+                                         "padding-left": "30px" 
+                                    },
+                                     "className": "btn btn-primary" 
+                                } 
+                            ],
+                             "sectionName": "section3" 
+                        } 
+                    ] 
+                },
+                 "header": {
+                    
+                } 
+            },
+             {
+                 "id": "64e4ea0f19647c1948bbfae5",
+                 "name": "basicDetails",
+                 "state": [
+                     {
+                        "key": "$name"
+                    },
+                     {
+                        "key": "$panId"
+                    },
+                     {
+                        "key": "$dob"
+                    },
+                     {
+                        "key": "$address"
+                    },
+                     {
+                        "key": "$pincode"
+                    } 
+                ],
+                 "body": {
+                     "type": "column",
+                     "attribute": {
+                        
+                    },
+                     "style": {
+                          
+                    },
+                     "container": [
+                         {
+                             "type": "text",
+                             "id": "welcomeText",
+                             "attribute": {
+                                 "text": "Welcome" 
+                            },
+                             "style": {
+                                 "color": "#6559F5",
+                                 "font-style": "italic" 
+                            } 
+                        },
+                         {
+                             "type": "text",
+                             "id": "welcomeText",
+                             "attribute": {
+                                 "text": "Enter basic details" 
+                            },
+                             "style": {
+                                 "font-size": "x-large",
+                                 "font-weight": "bolder" 
+                            } 
+                        },
+                         {
+                             "type": "input",
+                             "attribute": {
+                                 "type": "text",
+                                 "placeholder": "Name",
+                                 "dataKey": "$name" 
+                            },
+                             "style": {
+                                 "border-bottom": "0px solid rgba(0, 0, 0, 0.65)",
+                                 "border-radius": "10px",
+                                 "text-align": "left" 
+                            },
+                             "errorMessage": "Enter valid name",
+                             "validation": "^[A-Za-z]$" 
+                        },
+                         {
+                             "type": "input",
+                             "attribute": {
+                                 "type": "text",
+                                 "placeholder": "PAN ID",
+                                 "dataKey": "$panId" 
+                            },
+                             "style": {
+                                 "border-bottom": "0px solid rgba(0, 0, 0, 0.65)",
+                                 "border-radius": "10px",
+                                 "text-align": "left" 
+                            },
+                             "errorMessage": "Enter valid pan id",
+                             "validation": "^[A-Za-z]{10}$" 
+                        },
+                         {
+                             "type": "input",
+                             "attribute": {
+                                 "type": "text",
+                                 "placeholder": "Date of Birth",
+                                 "dataKey": "$dob" 
+                            },
+                             "style": {
+                                 "border-bottom": "0px solid rgba(0, 0, 0, 0.65)",
+                                 "border-radius": "10px",
+                                 "text-align": "left" 
+                            },
+                             "errorMessage": "Enter valid date of birth",
+                             "validation": "^[0-9]$" 
+                        },
+                         {
+                             "type": "input",
+                             "attribute": {
+                                 "type": "text",
+                                 "placeholder": "Address",
+                                 "dataKey": "$address" 
+                            },
+                             "style": {
+                                 "border-bottom": "0px solid rgba(0, 0, 0, 0.65)",
+                                 "border-radius": "10px",
+                                 "text-align": "left",
+                                 "errorMessage": "Enter valid address",
+                                 "validation": "^[A-Za-z]{3,}$" 
+                            } 
+                        },
+                         {
+                             "type": "input",
+                             "attribute": {
+                                 "type": "text",
+                                 "placeholder": "Pincode",
+                                 "dataKey": "$pincode" 
+                            },
+                             "style": {
+                                 "border-bottom": "0px solid rgba(0, 0, 0, 0.65)",
+                                 "border-radius": "10px",
+                                 "text-align": "left" 
+                            },
+                             "errorMessage": "Enter valid pincode",
+                             "validation": "^[A-Za-z0-9]{3,}$" 
+                        },
+                         {
+                             "type": "button",
+                             "id": "continueButton",
+                             "attribute": {
+                                 "title": "Continue" 
+                            },
+                             "style": {
+                                 "text-align": "center",
+                                 "border-radius": "30px" 
+                            },
+                             "className": "btn btn-primary",
+                             "action": [
+                                 "showError({'Enter valid user details'})" 
+                            ] 
+                        } 
+                    ] 
+                },
+                 "header": {
+                    
+                } 
+            } 
+        ] 
+    } 
+}

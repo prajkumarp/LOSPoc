@@ -10,6 +10,19 @@
 		E146AA7B2B7C61EC0076A224 /* SmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */; };
 		E146AA7C2B7C61EC0076A224 /* SmartSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E146AAB42B7C652C0076A224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A2C3332B79F8DE0077CBFB /* Main.storyboard */; };
+		E1C7D1A92B87641200CCED1A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1A82B87640D00CCED1A /* Config.plist */; };
+		E1C7D1B22B8777BB00CCED1A /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1B12B8777BB00CCED1A /* sample.json */; };
+		E1C7D1B42B87789A00CCED1A /* ThemeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1B32B87789A00CCED1A /* ThemeData.json */; };
+		E1C7D1CE2B877AA700CCED1A /* Tropiline-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C42B877AA700CCED1A /* Tropiline-Bold.ttf */; };
+		E1C7D1CF2B877AA700CCED1A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C52B877AA700CCED1A /* Inter-Medium.ttf */; };
+		E1C7D1D02B877AA700CCED1A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C62B877AA700CCED1A /* Inter-SemiBold.ttf */; };
+		E1C7D1D12B877AA700CCED1A /* Geomanist-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C72B877AA700CCED1A /* Geomanist-Medium.otf */; };
+		E1C7D1D22B877AA700CCED1A /* Geomanist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C82B877AA700CCED1A /* Geomanist-Regular.otf */; };
+		E1C7D1D32B877AA700CCED1A /* Geomanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1C92B877AA700CCED1A /* Geomanist-Bold.ttf */; };
+		E1C7D1D42B877AA700CCED1A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1CA2B877AA700CCED1A /* Inter-Regular.ttf */; };
+		E1C7D1D52B877AA700CCED1A /* Tropiline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1CB2B877AA700CCED1A /* Tropiline-Regular.ttf */; };
+		E1C7D1D62B877AA700CCED1A /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1CC2B877AA700CCED1A /* Base.lproj */; };
+		E1C7D1D72B877AA700CCED1A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1CD2B877AA700CCED1A /* Roboto-Regular.ttf */; };
 		E4A2C32E2B79F8DE0077CBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */; };
 		E4A2C3302B79F8DE0077CBFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */; };
 		E4A2C3322B79F8DE0077CBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3312B79F8DE0077CBFB /* ViewController.swift */; };
@@ -57,6 +70,19 @@
 /* Begin PBXFileReference section */
 		E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E146AAB62B7C652F0076A224 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E1C7D1A82B87640D00CCED1A /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Config.plist; path = ../../../../SmartSDK/SmartSDK/Utility/Helpers/Config.plist; sourceTree = "<group>"; };
+		E1C7D1B12B8777BB00CCED1A /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		E1C7D1B32B87789A00CCED1A /* ThemeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThemeData.json; sourceTree = "<group>"; };
+		E1C7D1C42B877AA700CCED1A /* Tropiline-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tropiline-Bold.ttf"; sourceTree = "<group>"; };
+		E1C7D1C52B877AA700CCED1A /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		E1C7D1C62B877AA700CCED1A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		E1C7D1C72B877AA700CCED1A /* Geomanist-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geomanist-Medium.otf"; sourceTree = "<group>"; };
+		E1C7D1C82B877AA700CCED1A /* Geomanist-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geomanist-Regular.otf"; sourceTree = "<group>"; };
+		E1C7D1C92B877AA700CCED1A /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geomanist-Bold.ttf"; sourceTree = "<group>"; };
+		E1C7D1CA2B877AA700CCED1A /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		E1C7D1CB2B877AA700CCED1A /* Tropiline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tropiline-Regular.ttf"; sourceTree = "<group>"; };
+		E1C7D1CC2B877AA700CCED1A /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		E1C7D1CD2B877AA700CCED1A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		E4A2C32A2B79F8DE0077CBFB /* SmartShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +134,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1C7D1C22B8779F600CCED1A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D2152B87A84B00CCED1A /* images */,
+				E1C7D1C32B877A7200CCED1A /* Fonts */,
+				E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E1C7D1C32B877A7200CCED1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1C7D1CC2B877AA700CCED1A /* Base.lproj */,
+				E1C7D1C92B877AA700CCED1A /* Geomanist-Bold.ttf */,
+				E1C7D1C72B877AA700CCED1A /* Geomanist-Medium.otf */,
+				E1C7D1C82B877AA700CCED1A /* Geomanist-Regular.otf */,
+				E1C7D1C52B877AA700CCED1A /* Inter-Medium.ttf */,
+				E1C7D1CA2B877AA700CCED1A /* Inter-Regular.ttf */,
+				E1C7D1C62B877AA700CCED1A /* Inter-SemiBold.ttf */,
+				E1C7D1CD2B877AA700CCED1A /* Roboto-Regular.ttf */,
+				E1C7D1C42B877AA700CCED1A /* Tropiline-Bold.ttf */,
+				E1C7D1CB2B877AA700CCED1A /* Tropiline-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E1C7D2152B87A84B00CCED1A /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E4A2C3212B79F8DE0077CBFB = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +192,11 @@
 		E4A2C32C2B79F8DE0077CBFB /* SmartShell */ = {
 			isa = PBXGroup;
 			children = (
+				E1C7D1C22B8779F600CCED1A /* Assets */,
 				E4D086862B85F79B003E3C16 /* Utility */,
 				E4D086852B85F790003E3C16 /* Launch */,
 				E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */,
 				E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */,
-				E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */,
 				E4A2C33B2B79F8DF0077CBFB /* LaunchScreen.storyboard */,
 				E4A2C33E2B79F8DF0077CBFB /* Info.plist */,
 				E4A2C3362B79F8DE0077CBFB /* SmartShell.xcdatamodeld */,
@@ -165,10 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				E4D0868E2B85F80C003E3C16 /* ViewControllers */,
-				E4D0868D2B85F803003E3C16 /* Views */,
 				E4D0868C2B85F7FD003E3C16 /* UI */,
-				E4D0868B2B85F7ED003E3C16 /* Data */,
-				E4D0868A2B85F7E7003E3C16 /* Model */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -176,46 +233,18 @@
 		E4D086862B85F79B003E3C16 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E4D0868F2B85F838003E3C16 /* Helpers */,
-				E4D086892B85F7C8003E3C16 /* UI */,
 				E4D086882B85F7BE003E3C16 /* Data */,
-				E4D086872B85F7B8003E3C16 /* Model */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		E4D086872B85F7B8003E3C16 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		E4D086882B85F7BE003E3C16 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E1C7D1B32B87789A00CCED1A /* ThemeData.json */,
+				E1C7D1A82B87640D00CCED1A /* Config.plist */,
 				E4D086832B85F77B003E3C16 /* layout1.json */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		E4D086892B85F7C8003E3C16 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		E4D0868A2B85F7E7003E3C16 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E4D0868B2B85F7ED003E3C16 /* Data */ = {
-			isa = PBXGroup;
-			children = (
+				E1C7D1B12B8777BB00CCED1A /* sample.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -228,26 +257,12 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		E4D0868D2B85F803003E3C16 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		E4D0868E2B85F80C003E3C16 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				E4A2C3312B79F8DE0077CBFB /* ViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E4D0868F2B85F838003E3C16 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +376,21 @@
 			files = (
 				E4A2C33D2B79F8DF0077CBFB /* LaunchScreen.storyboard in Resources */,
 				E4A2C33A2B79F8DF0077CBFB /* Assets.xcassets in Resources */,
+				E1C7D1CE2B877AA700CCED1A /* Tropiline-Bold.ttf in Resources */,
 				E4A2C3352B79F8DE0077CBFB /* Main.storyboard in Resources */,
+				E1C7D1D12B877AA700CCED1A /* Geomanist-Medium.otf in Resources */,
+				E1C7D1A92B87641200CCED1A /* Config.plist in Resources */,
+				E1C7D1D52B877AA700CCED1A /* Tropiline-Regular.ttf in Resources */,
+				E1C7D1D42B877AA700CCED1A /* Inter-Regular.ttf in Resources */,
 				E4D086842B85F77B003E3C16 /* layout1.json in Resources */,
+				E1C7D1B22B8777BB00CCED1A /* sample.json in Resources */,
+				E1C7D1D62B877AA700CCED1A /* Base.lproj in Resources */,
+				E1C7D1B42B87789A00CCED1A /* ThemeData.json in Resources */,
+				E1C7D1D32B877AA700CCED1A /* Geomanist-Bold.ttf in Resources */,
+				E1C7D1D02B877AA700CCED1A /* Inter-SemiBold.ttf in Resources */,
+				E1C7D1D72B877AA700CCED1A /* Roboto-Regular.ttf in Resources */,
+				E1C7D1D22B877AA700CCED1A /* Geomanist-Regular.otf in Resources */,
+				E1C7D1CF2B877AA700CCED1A /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

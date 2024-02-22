@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Welcome
-class LaunchLayoutConfigData: Codable {
+public class LaunchLayoutConfigData: Codable {
     let buttons: [Button]
 
     init(buttons: [Button]) {
