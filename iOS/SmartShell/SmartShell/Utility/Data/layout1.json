@@ -4,7 +4,7 @@
       "text": "web fullscreen with back and close",
       "renderMode" : "web",
       "windowType" : "fullscreen",
-      "url": "http://www.yandex.com",
+      "url": "https://www.google.com/search?q=space&tbm=isch&ved=2ahUKEwi29fj84b-EAxWkbGwGHf-_ATgQ2-cCegQIABAA&oq=space&gs_lp=EgNpbWciBXNwYWNlMgQQIxgnMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDSL8VUI4TWI4TcAB4AJABAJgBUaABngGqAQEyuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAg0QABiABBiKBRhDGLEDiAYB&sclient=img&ei=sqvXZbbUBaTZseMP__-GwAM&bih=876&biw=1920&hl=en",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -15,7 +15,7 @@
       "text": "web fullscreen without back, with close",
       "renderMode" : "web",
       "windowType" : "fullscreen",
-      "url": "http://www.yandex.com",
+      "url": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -26,7 +26,7 @@
       "text": "web modal with back and close",
       "renderMode" : "web",
       "windowType" : "modal",
-      "url": "http://www.yahoo.com",
+      "url": "https://www.pinterest.com/search/pins/?q=cars&rs=typed",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -37,7 +37,7 @@
       "text": "web modal without back and with close",
       "renderMode" : "web",
       "windowType" : "modal",
-      "url": "https://www.naver.com/",
+      "url": "https://www.google.com/maps/@12.9151567,77.687969,15z?entry=ttu",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -48,7 +48,7 @@
       "text": "web bottom sheet with back and close",
       "renderMode" : "web",
       "windowType" : "bottomSheet",
-      "url": "https://www.naver.com/",
+      "url": "https://www.google.com/search?sca_esv=1e0a15d19e51fa54&sxsrf=ACQVn08mdmV49QSUm6VJZTWKQpvQAZpfvA:1708632910858&q=cars&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjU7M_N4b-EAxUCTmwGHeHKAUUQ0pQJegQIDRAB&biw=1920&bih=876&dpr=1",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -59,7 +59,7 @@
       "text": "web bottom sheet without back and with close",
       "renderMode" : "web",
       "windowType" : "bottomSheet",
-      "url": "https://www.naver.com/",
+      "url": "https://www.google.com/search?q=cars&source=lmns&tbm=nws&bih=876&biw=1920&hl=en&sa=X&ved=2ahUKEwjTx6fO4b-EAxVicmwGHf_2Aw0Q0pQJKAN6BAgBEAg",
       "header": {
         "isVisible" : true,
         "showClose" : true,

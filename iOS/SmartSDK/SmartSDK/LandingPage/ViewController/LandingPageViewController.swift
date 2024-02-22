@@ -57,12 +57,13 @@ class LandingPageViewController: UIViewController{
         stackView.axis = .vertical
         stackView.alignment = .fill
         stackView.distribution = .fill
-        stackView.spacing = 0
+        stackView.spacing = 2
+        stackView.backgroundColor = .white
         
         self.createSections()
         self.setupBottomFiller()
         
-        scrollView.contentSize = CGSize(width: self.view.frame.width, height: CGFloat(contentSize))
+        scrollView.contentSize = CGSize(width: (self.view.frame.width - 8), height: CGFloat(contentSize))
         
         scrollView.addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -105,7 +106,7 @@ class LandingPageViewController: UIViewController{
             stackView.addArrangedSubview(button)
             button.translatesAutoresizingMaskIntoConstraints = false
             button.heightAnchor.constraint(equalToConstant: CGFloat(height)).isActive = true
-            button.widthAnchor.constraint(equalToConstant: CGFloat(self.view.bounds.width-32)).isActive = true
+            button.widthAnchor.constraint(equalToConstant: CGFloat(scrollView.bounds.width)).isActive = true
             
         }
     }
