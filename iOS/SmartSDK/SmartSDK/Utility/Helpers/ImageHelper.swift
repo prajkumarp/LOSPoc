@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SVGKit
 
-struct ImageHelper{
+class ImageHelper{
     
     func createImageFromSVG(imageName:String,size:CGSize) -> UIImage{
         
@@ -21,9 +21,11 @@ struct ImageHelper{
         
         _ = FileManager.default
         
-        let defaultPath = Bundle.main.path(forResource: ThemeConstants.defaultPlaceholderImageName, ofType: nil)
+        let bundle = Bundle(for: Self.self)
         
-        if let path = Bundle.main.path(forResource: imageNamewithExtention, ofType: nil) {
+        let defaultPath = bundle.path(forResource: ThemeConstants.defaultPlaceholderImageName, ofType: nil)
+
+        if let path = bundle.path(forResource: imageNamewithExtention, ofType: nil) {
             validImageFileName = path
         } else {
             validImageFileName = defaultPath!

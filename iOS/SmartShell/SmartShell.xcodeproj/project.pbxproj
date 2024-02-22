@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E146AA7B2B7C61EC0076A224 /* SmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */; };
 		E146AA7C2B7C61EC0076A224 /* SmartSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E146AAB42B7C652C0076A224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A2C3332B79F8DE0077CBFB /* Main.storyboard */; };
 		E1C7D1A92B87641200CCED1A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1A82B87640D00CCED1A /* Config.plist */; };
 		E1C7D1B22B8777BB00CCED1A /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1B12B8777BB00CCED1A /* sample.json */; };
 		E1C7D1B42B87789A00CCED1A /* ThemeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D1B32B87789A00CCED1A /* ThemeData.json */; };
@@ -26,10 +25,8 @@
 		E4A2C32E2B79F8DE0077CBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */; };
 		E4A2C3302B79F8DE0077CBFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */; };
 		E4A2C3322B79F8DE0077CBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3312B79F8DE0077CBFB /* ViewController.swift */; };
-		E4A2C3352B79F8DE0077CBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A2C3332B79F8DE0077CBFB /* Main.storyboard */; };
 		E4A2C3382B79F8DE0077CBFB /* SmartShell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3362B79F8DE0077CBFB /* SmartShell.xcdatamodeld */; };
 		E4A2C33A2B79F8DF0077CBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */; };
-		E4A2C33D2B79F8DF0077CBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A2C33B2B79F8DF0077CBFB /* LaunchScreen.storyboard */; };
 		E4A2C3482B79F8E00077CBFB /* SmartShellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3472B79F8E00077CBFB /* SmartShellTests.swift */; };
 		E4A2C3522B79F8E00077CBFB /* SmartShellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3512B79F8E00077CBFB /* SmartShellUITests.swift */; };
 		E4A2C3542B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3532B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift */; };
@@ -69,7 +66,6 @@
 
 /* Begin PBXFileReference section */
 		E146AA7A2B7C61EC0076A224 /* SmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E146AAB62B7C652F0076A224 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		E1C7D1A82B87640D00CCED1A /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Config.plist; path = ../../../../SmartSDK/SmartSDK/Utility/Helpers/Config.plist; sourceTree = "<group>"; };
 		E1C7D1B12B8777BB00CCED1A /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		E1C7D1B32B87789A00CCED1A /* ThemeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThemeData.json; sourceTree = "<group>"; };
@@ -87,10 +83,8 @@
 		E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E4A2C3312B79F8DE0077CBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4A2C3342B79F8DE0077CBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A2C3372B79F8DE0077CBFB /* SmartShell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartShell.xcdatamodel; sourceTree = "<group>"; };
 		E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4A2C33C2B79F8DF0077CBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4A2C33E2B79F8DF0077CBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A2C3432B79F8E00077CBFB /* SmartShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C3472B79F8E00077CBFB /* SmartShellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShellTests.swift; sourceTree = "<group>"; };
@@ -137,7 +131,6 @@
 		E1C7D1C22B8779F600CCED1A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E1C7D2152B87A84B00CCED1A /* images */,
 				E1C7D1C32B877A7200CCED1A /* Fonts */,
 				E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */,
 			);
@@ -159,13 +152,6 @@
 				E1C7D1CB2B877AA700CCED1A /* Tropiline-Regular.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		E1C7D2152B87A84B00CCED1A /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		E4A2C3212B79F8DE0077CBFB = {
@@ -197,7 +183,6 @@
 				E4D086852B85F790003E3C16 /* Launch */,
 				E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */,
 				E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */,
-				E4A2C33B2B79F8DF0077CBFB /* LaunchScreen.storyboard */,
 				E4A2C33E2B79F8DF0077CBFB /* Info.plist */,
 				E4A2C3362B79F8DE0077CBFB /* SmartShell.xcdatamodeld */,
 			);
@@ -252,7 +237,6 @@
 		E4D0868C2B85F7FD003E3C16 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				E4A2C3332B79F8DE0077CBFB /* Main.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -374,10 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A2C33D2B79F8DF0077CBFB /* LaunchScreen.storyboard in Resources */,
 				E4A2C33A2B79F8DF0077CBFB /* Assets.xcassets in Resources */,
 				E1C7D1CE2B877AA700CCED1A /* Tropiline-Bold.ttf in Resources */,
-				E4A2C3352B79F8DE0077CBFB /* Main.storyboard in Resources */,
 				E1C7D1D12B877AA700CCED1A /* Geomanist-Medium.otf in Resources */,
 				E1C7D1A92B87641200CCED1A /* Config.plist in Resources */,
 				E1C7D1D52B877AA700CCED1A /* Tropiline-Regular.ttf in Resources */,
@@ -405,7 +387,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E146AAB42B7C652C0076A224 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,26 +435,6 @@
 			targetProxy = E4A2C34E2B79F8E00077CBFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E4A2C3332B79F8DE0077CBFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4A2C3342B79F8DE0077CBFB /* Base */,
-				E146AAB62B7C652F0076A224 /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4A2C33B2B79F8DF0077CBFB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4A2C33C2B79F8DF0077CBFB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E4A2C3552B79F8E00077CBFB /* Debug */ = {
@@ -607,7 +568,7 @@
 				INFOPLIST_FILE = SmartShell/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -636,7 +597,7 @@
 				INFOPLIST_FILE = SmartShell/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

@@ -16,9 +16,16 @@ class WebviewWithViewController : UIViewController{
     var urlPath   : String = ""
     var showBack  : Bool = true
     var showClose : Bool = true
+    var showTitle : Bool = true
+    var ctaValues : ctaControl?
     
     var webView: WKWebView = WKWebView()
-    let headerView: UIView =  UIView(frame: CGRectZero)
+    let headerView : UIView =  UIView(frame: CGRectZero)
+    var backButton : UIButton = UIButton(frame: CGRectZero)
+    var closeButton: UIButton = UIButton(frame: CGRectZero)
+    let titleLabel : UILabel = UILabel(frame: CGRectZero)
+    
+    var webviewTopAnchorConstant = 8
     // MARK: - Lifecycle
     
     convenience init(title: String, subTitle: String, urlPath: String, showBack: Bool, showClose: Bool) {
@@ -28,6 +35,16 @@ class WebviewWithViewController : UIViewController{
         self.urlPath = urlPath
         self.showBack = showBack
         self.showClose = showClose
+    }
+    
+    convenience init(_ctaValues : ctaControl){
+        self.init()
+        self.ctaValues = _ctaValues
+        self.showBack = (ctaValues!.header.showBack)
+        self.showClose = (ctaValues!.header.showClose)
+        self.showTitle = (ctaValues!.header.isVisible)
+        self.urlPath = ctaValues!.url
+        self.titleText = ctaValues!.displaytext
     }
     
     
@@ -46,19 +63,34 @@ class WebviewWithViewController : UIViewController{
     
     // MARK: - Navigation
     func setBackButtonVisibility(should show:Bool){
-        
+        self.backButton.isHidden = !show
     }
     
     func setCloseButtonStateVisbiity(should show:Bool){
-        
+        self.closeButton.isHidden = !show
     }
     
-    @objc func backButtonClicked() {
+    @objc private func backButtonClicked(_ sender: UIButton){
         
         if (webView.backForwardList.backList.count > 0){
             webView.goBack()
         }else{
+            let nvc = self.navigationController
+            if ((nvc) != nil){
+                self.navigationController?.popViewController(animated: true)
+            }else{
+                self.dismiss(animated: true)
+            }
+            
+        }
+    }
+    
+    @objc func CloseButtonClicked(_ sender: UIButton)  {
+        let nvc = self.navigationController
+        if ((nvc) != nil){
             self.navigationController?.popViewController(animated: true)
+        }else{
+            self.dismiss(animated: true)
         }
     }
     
@@ -66,79 +98,109 @@ class WebviewWithViewController : UIViewController{
     
     private func setupUI(){
         self.view.backgroundColor = .white
-        self.setupBackButton()
-        self.setupHeader()
-        self.setupWebView()
+        
+        if(navigationController != nil){
+            
+            let backButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(backButtonClicked(_:)))
+            backButton.image = UIImage(systemName: "arrow.left")!.withTintColor(.blue, renderingMode: .alwaysTemplate)
+            backButton.tintColor = .black
+            self.navigationItem.leftBarButtonItem = backButton
+            
+            let closeButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(CloseButtonClicked(_:)))
+            closeButton.image = UIImage(systemName: "xmark.circle")!.withTintColor(.blue, renderingMode: .alwaysTemplate)
+            closeButton.tintColor = .black
+            self.navigationItem.rightBarButtonItem = closeButton
+            
+            self.navigationItem.title = self.titleText
+            
+            webviewTopAnchorConstant = 100
+            
+            self.showClose = false
+            self.showBack = false
+            self.showTitle = false
+            self.setupHeader()
+            self.setupWebView()
+            
+        
+            
+            
+        }
+        else{
+            self.setupBackButton()
+            self.setupCloseButton()
+            self.setupTitle()
+            self.setupHeader()
+            self.setupWebView()
+        }
     }
     
     private func setupBackButton(){
-        
-        let backButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(backButtonClicked))
-        backButton.image = ImageHelper().createImageFromSVG(imageName: "Left_back",size: CGSize(width: 24, height: 24))
+        backButton = UIButton(frame: CGRectZero)
+        backButton.addTarget(self, action: #selector(backButtonClicked(_:)), for: .touchUpInside)
+        backButton.setBackgroundImage(UIImage(systemName: "arrow.left")!.withTintColor(.blue, renderingMode: .alwaysTemplate), for: .normal)
         backButton.tintColor = .black
-        self.navigationItem.leftBarButtonItem = backButton
-        
     }
     
     private func setupCloseButton(){
-        
+        closeButton = UIButton(frame: CGRectZero)
+        closeButton.addTarget(self, action: #selector(CloseButtonClicked(_:)), for: .touchUpInside)
+        closeButton.setBackgroundImage(UIImage(systemName: "xmark.circle")!.withTintColor(.blue, renderingMode: .alwaysTemplate), for: .normal)
+        closeButton.tintColor = .black
+    }
+    
+    private func setupTitle(){
+        navigationItem.hidesBackButton = true
+//         Create the title for the page
+        titleLabel.text = self.titleText
+        titleLabel.textColor = ThemeManager.sharedInstance.primaryTheme.palette.baseColor.base1
+        titleLabel.font = ThemeManager.sharedInstance.primaryTheme.fonts.primaryFont.bold.withSize(20)
     }
     
     private func setupHeader(){
         
-        var heightOfTitle    : Int = 32
-        var heightofSubtitle : Int = 24
-        let headerTopAnchor  : Int = 100
-        var heightofHeaderView: Int =  8
-        
-        let titleLabel    : UILabel      = UILabel(frame: CGRectZero)
-        let subTitleLabel : UILabel      = UILabel(frame: CGRectZero)
-        
-        // Create the title for the page
-        if (self.titleText != ""){
-            titleLabel.text = self.titleText
-            titleLabel.textColor = ThemeManager.sharedInstance.primaryTheme.palette.baseColor.base1
-            titleLabel.font = ThemeManager.sharedInstance.primaryTheme.fonts.primaryFont.bold.withSize(24)
-            heightofHeaderView = heightofHeaderView + heightOfTitle
-        }else{
-            heightOfTitle = 0
-        }
-        
-        if (self.subTitleText != ""){
-            subTitleLabel.text = self.subTitleText
-            subTitleLabel.textColor = ThemeManager.sharedInstance.primaryTheme.palette.baseColor.base1
-            subTitleLabel.font = ThemeManager.sharedInstance.primaryTheme.fonts.subheadingBold20
-            heightofHeaderView = heightofHeaderView + heightofSubtitle
-        }else{
-            heightofSubtitle = 0
-        }
-        
-        headerView.addSubview(titleLabel)
-        headerView.addSubview(subTitleLabel)
-        
+        var heightofHeader = 0
         headerView.translatesAutoresizingMaskIntoConstraints = false
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        subTitleLabel.translatesAutoresizingMaskIntoConstraints = false
+
+        if(showBack){
+            headerView.addSubview(backButton)
+            backButton.translatesAutoresizingMaskIntoConstraints = false
+            backButton.topAnchor.constraint(equalTo: headerView.topAnchor,constant: 8).isActive = true
+            backButton.leadingAnchor.constraint(equalTo: headerView.leadingAnchor,constant: 16).isActive = true
+            backButton.heightAnchor.constraint(equalToConstant:CGFloat(28)).isActive = true
+            backButton.widthAnchor.constraint(equalToConstant:CGFloat(28)).isActive = true
+            heightofHeader = 48
+        }
         
-        titleLabel.topAnchor.constraint(equalTo: headerView.topAnchor,constant: 8).isActive = true
-        titleLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor,constant: 16).isActive = true
-        titleLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor,constant: 16).isActive = true
-        titleLabel.heightAnchor.constraint(equalToConstant:CGFloat(heightOfTitle)).isActive = true
-       
-        subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor).isActive = true
-        subTitleLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor,constant: 16).isActive = true
-        subTitleLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor,constant: 16).isActive = true
-        subTitleLabel.heightAnchor.constraint(equalToConstant:CGFloat(heightofSubtitle)).isActive = true
+        if(showClose){
+            headerView.addSubview(closeButton)
+            closeButton.translatesAutoresizingMaskIntoConstraints = false
+            closeButton.topAnchor.constraint(equalTo: headerView.topAnchor,constant: 8).isActive = true
+            closeButton.trailingAnchor.constraint(equalTo: headerView.trailingAnchor,constant: -16).isActive = true
+            closeButton.heightAnchor.constraint(equalToConstant:CGFloat(28)).isActive = true
+            closeButton.widthAnchor.constraint(equalToConstant:CGFloat(28)).isActive = true
+            heightofHeader = 48
+        }
         
+        
+        if(showTitle){
+            headerView.addSubview(titleLabel)
+            titleLabel.translatesAutoresizingMaskIntoConstraints = false
+            titleLabel.topAnchor.constraint(equalTo: headerView.topAnchor,constant: 8).isActive = true
+            titleLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor,constant: 48).isActive = true
+            titleLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor,constant: -48).isActive = true
+            titleLabel.heightAnchor.constraint(equalToConstant:CGFloat(32)).isActive = true
+            heightofHeader = 48
+        }
+
         
         self.view.addSubview(headerView)
         
-        headerView.topAnchor.constraint(equalTo: self.view.topAnchor,constant: CGFloat(headerTopAnchor)).isActive = true
+        headerView.topAnchor.constraint(equalTo: self.view.topAnchor,constant: 8).isActive = true
         headerView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         headerView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
-        headerView.heightAnchor.constraint(equalToConstant:CGFloat(heightofHeaderView)).isActive = true
-
+        headerView.heightAnchor.constraint(equalToConstant:CGFloat(heightofHeader)).isActive = true
         
+
     }
     
     private func setupWebView(){
@@ -147,7 +209,7 @@ class WebviewWithViewController : UIViewController{
         
         webView.navigationDelegate = self
         webView.translatesAutoresizingMaskIntoConstraints = false
-        webView.topAnchor.constraint(equalTo: headerView.bottomAnchor,constant: 8).isActive = true
+        webView.topAnchor.constraint(equalTo: headerView.bottomAnchor,constant: CGFloat(webviewTopAnchorConstant)).isActive = true
         webView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor,constant: -8).isActive = true
         webView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor,constant: 8).isActive = true
         webView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor,constant: -8).isActive = true

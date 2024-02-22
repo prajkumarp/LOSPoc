@@ -27,7 +27,7 @@ class ctaControl {
     var renderMode  : renderModeEnum = .web
     var windowType  : windowTypeEnum = .fullScreen
     var url         : String = ""
-    var header      : pageHeader?
+    var header      : pageHeader
     var index       : Int = 0
     
     init (button : Button){

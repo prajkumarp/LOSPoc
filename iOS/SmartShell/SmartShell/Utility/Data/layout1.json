@@ -1,7 +1,7 @@
 {
   "buttons": [
     {
-      "text": "web fullscreen with toolbar and close",
+      "text": "web fullscreen with back",
       "renderMode" : "web",
       "windowType" : "fullscreen",
       "url": "http://www.yandex.com",
@@ -12,10 +12,21 @@
       }
     },
     {
-      "text": "web modal with toolbar and close",
+      "text": "web modal with back and close",
       "renderMode" : "web",
       "windowType" : "modal",
       "url": "http://www.yahoo.com",
+      "header": {
+        "isVisible" : true,
+        "showClose" : true,
+        "showBack" : true
+      }
+    },
+    {
+      "text": "web modal without back and with close",
+      "renderMode" : "web",
+      "windowType" : "modal",
+      "url": "https://www.naver.com/",
       "header": {
         "isVisible" : true,
         "showClose" : true,
@@ -23,24 +34,13 @@
       }
     },
     {
-      "text": "web modal no toolbar",
+      "text": "web bottom sheet with close",
       "renderMode" : "web",
-      "windowType" : "modal",
+      "windowType" : "bottomSheet",
       "url": "https://www.naver.com/",
       "header": {
-        "isVisible" : false,
-        "showClose" : false,
-        "showBack" : false
-      }
-    },
-    {
-      "text": "web fullscreen no toolbar",
-      "renderMode" : "web",
-      "windowType" : "fullscreen",
-      "url": "http://www.ask.com",
-      "header": {
-        "isVisible" : false,
-        "showClose" : false,
+        "isVisible" : true,
+        "showClose" : true,
         "showBack" : false
       }
     }

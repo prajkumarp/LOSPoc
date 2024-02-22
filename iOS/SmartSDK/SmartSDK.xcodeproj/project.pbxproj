@@ -59,6 +59,7 @@
 		E1C7D20F2B879AAF00CCED1A /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D20E2B879AAF00CCED1A /* SVGKitSwift */; };
 		E1C7D2122B879ADD00CCED1A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D2112B879ADD00CCED1A /* SnapKit */; };
 		E1C7D2142B879ADD00CCED1A /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E1C7D2132B879ADD00CCED1A /* SnapKit-Dynamic */; };
+		E1C7D2B52B87B21100CCED1A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C7D2B42B87B21100CCED1A /* Media.xcassets */; };
 		E425A9AD2B8476DC000AF998 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E425A9AC2B8476DC000AF998 /* Lottie */; };
 		E4A2C2C52B79F01F0077CBFB /* SmartSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */; };
 		E4A2C2CB2B79F01F0077CBFB /* SmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */; };
@@ -129,6 +130,7 @@
 		E1C7D1FB2B8798AA00CCED1A /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		E1C7D1FD2B8798AA00CCED1A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		E1C7D2002B8798AA00CCED1A /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		E1C7D2B42B87B21100CCED1A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C2C32B79F01F0077CBFB /* SmartSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartSDK.h; sourceTree = "<group>"; };
 		E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SmartSDK.docc; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				E146AA802B7C643C0076A224 /* lottie */,
+				E1C7D2B42B87B21100CCED1A /* Media.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 			files = (
 				E146AAAD2B7C64710076A224 /* yellow exclamation.json in Resources */,
 				E146AA9A2B7C64710076A224 /* UnderConstruction5.json in Resources */,
+				E1C7D2B52B87B21100CCED1A /* Media.xcassets in Resources */,
 				E146AAA02B7C64710076A224 /* UnderConstruction11.json in Resources */,
 				E146AAA42B7C64710076A224 /* UnderConstruction9.json in Resources */,
 				E146AAA32B7C64710076A224 /* UnderConstruction10.json in Resources */,

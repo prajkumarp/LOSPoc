@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import WebKit
 
 class LandingPageViewController: UIViewController{
     
@@ -15,7 +16,7 @@ class LandingPageViewController: UIViewController{
     var headerView: UIView!
     var scrollView:UIScrollView!
     var stackView:UIStackView!
-    
+   
     var contentSize = 200
     
     // MARK: - Lifecycle
@@ -71,8 +72,6 @@ class LandingPageViewController: UIViewController{
         stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor).isActive = true
         
         view.addSubview(scrollView)
-        
-        
         
     }
     
@@ -150,14 +149,23 @@ class LandingPageViewController: UIViewController{
             
         case .fullScreen:
             do {
-                let webviewController = WebviewWithViewController(title: selectedItem.displaytext, subTitle: "", urlPath: selectedItem.url, showBack: selectedItem.header!.showBack, showClose: selectedItem.header!.showClose)
-               
-                self.present(webviewController, animated: true)
+                let webviewController = WebviewWithViewController(_ctaValues: selectedItem)
+                navigationController?.pushViewController(webviewController, animated: true)
             }
         case .modal:
-            do {}
+            do {
+                let webviewController = WebviewWithViewController(_ctaValues: selectedItem)
+                webviewController.modalPresentationStyle = .popover
+                webviewController.isModalInPresentation = true
+                self.present(webviewController, animated: true, completion: nil)
+            }
         case .bottomSheet:
-            do {}
+            do {
+                let webviewController = WebviewWithViewController(_ctaValues: selectedItem)
+                webviewController.modalPresentationStyle = .popover
+                webviewController.isModalInPresentation = true
+                self.present(webviewController, animated: true, completion: nil)
+            }
         }
         
     }
@@ -165,4 +173,7 @@ class LandingPageViewController: UIViewController{
     private func doNothing(){
         
     }
+    
+   
 }
+
