@@ -11,7 +11,7 @@ import Foundation
 
 public class ConfigHelper{
     
-    public static let sharedInstance = ConfigHelper()
+    static let sharedInstance = ConfigHelper()
     
     private let configFileURL = Bundle.main.url(forResource: "Config", withExtension: "plist")
     

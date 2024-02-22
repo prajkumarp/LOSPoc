@@ -32,24 +32,16 @@
 		E146AAB02B7C64710076A224 /* UnderConstruction6.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA972B7C64710076A224 /* UnderConstruction6.json */; };
 		E146AAB12B7C64710076A224 /* UnderConstruction4.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA982B7C64710076A224 /* UnderConstruction4.json */; };
 		E146AAB22B7C64710076A224 /* animationBG1.json in Resources */ = {isa = PBXBuildFile; fileRef = E146AA992B7C64710076A224 /* animationBG1.json */; };
-		E1FC82612B83C002008794C1 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = E1FC82552B83C002008794C1 /* Models */; };
-		E1FC82622B83C002008794C1 /* ExternalLibraries in Resources */ = {isa = PBXBuildFile; fileRef = E1FC82562B83C002008794C1 /* ExternalLibraries */; };
-		E1FC82632B83C002008794C1 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = E1FC82572B83C002008794C1 /* Helpers */; };
-		E1FC82642B83C002008794C1 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = E1FC82582B83C002008794C1 /* UI */; };
-		E1FC82652B83C002008794C1 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC82592B83C002008794C1 /* enums.swift */; };
-		E1FC82662B83C002008794C1 /* Theme in Resources */ = {isa = PBXBuildFile; fileRef = E1FC825A2B83C002008794C1 /* Theme */; };
-		E1FC82672B83C002008794C1 /* UnderConstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC825B2B83C002008794C1 /* UnderConstructionViewController.swift */; };
-		E1FC82682B83C002008794C1 /* Events in Resources */ = {isa = PBXBuildFile; fileRef = E1FC825C2B83C002008794C1 /* Events */; };
-		E1FC82692B83C002008794C1 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = E1FC825D2B83C002008794C1 /* Network */; };
-		E1FC826A2B83C002008794C1 /* CacheKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC825E2B83C002008794C1 /* CacheKeys.swift */; };
-		E1FC826B2B83C002008794C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC825F2B83C002008794C1 /* Constants.swift */; };
-		E1FC826C2B83C002008794C1 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1FC82602B83C002008794C1 /* Config.plist */; };
+		E425A9AD2B8476DC000AF998 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E425A9AC2B8476DC000AF998 /* Lottie */; };
 		E4A2C2C52B79F01F0077CBFB /* SmartSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */; };
 		E4A2C2CB2B79F01F0077CBFB /* SmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */; };
 		E4A2C2D02B79F01F0077CBFB /* SmartSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2CF2B79F01F0077CBFB /* SmartSDKTests.swift */; };
 		E4A2C2D12B79F01F0077CBFB /* SmartSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A2C2C32B79F01F0077CBFB /* SmartSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4A2C2DD2B79F2420077CBFB /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */; };
 		E4A2C2DF2B79F40F0077CBFB /* SmartFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C2DE2B79F40F0077CBFB /* SmartFramework.swift */; };
+		E4D086962B85FD76003E3C16 /* ConfigHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D086952B85FD76003E3C16 /* ConfigHelper.swift */; };
+		E4D086982B85FDE1003E3C16 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4D086972B85FDE1003E3C16 /* Config.plist */; };
+		E4D0869B2B863452003E3C16 /* LaunchLayoutConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,18 +80,6 @@
 		E146AA972B7C64710076A224 /* UnderConstruction6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnderConstruction6.json; sourceTree = "<group>"; };
 		E146AA982B7C64710076A224 /* UnderConstruction4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnderConstruction4.json; sourceTree = "<group>"; };
 		E146AA992B7C64710076A224 /* animationBG1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationBG1.json; sourceTree = "<group>"; };
-		E1FC82552B83C002008794C1 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		E1FC82562B83C002008794C1 /* ExternalLibraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExternalLibraries; sourceTree = "<group>"; };
-		E1FC82572B83C002008794C1 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
-		E1FC82582B83C002008794C1 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
-		E1FC82592B83C002008794C1 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
-		E1FC825A2B83C002008794C1 /* Theme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Theme; sourceTree = "<group>"; };
-		E1FC825B2B83C002008794C1 /* UnderConstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderConstructionViewController.swift; sourceTree = "<group>"; };
-		E1FC825C2B83C002008794C1 /* Events */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Events; sourceTree = "<group>"; };
-		E1FC825D2B83C002008794C1 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
-		E1FC825E2B83C002008794C1 /* CacheKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheKeys.swift; sourceTree = "<group>"; };
-		E1FC825F2B83C002008794C1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E1FC82602B83C002008794C1 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C2C32B79F01F0077CBFB /* SmartSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartSDK.h; sourceTree = "<group>"; };
 		E4A2C2C42B79F01F0077CBFB /* SmartSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SmartSDK.docc; sourceTree = "<group>"; };
@@ -107,6 +87,9 @@
 		E4A2C2CF2B79F01F0077CBFB /* SmartSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSDKTests.swift; sourceTree = "<group>"; };
 		E4A2C2DC2B79F2420077CBFB /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		E4A2C2DE2B79F40F0077CBFB /* SmartFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFramework.swift; sourceTree = "<group>"; };
+		E4D086952B85FD76003E3C16 /* ConfigHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigHelper.swift; sourceTree = "<group>"; };
+		E4D086972B85FDE1003E3C16 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchLayoutConfigData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E425A9AD2B8476DC000AF998 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,18 +115,8 @@
 		E146AA7E2B7C63D40076A224 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E1FC825E2B83C002008794C1 /* CacheKeys.swift */,
-				E1FC82602B83C002008794C1 /* Config.plist */,
-				E1FC825F2B83C002008794C1 /* Constants.swift */,
-				E1FC82592B83C002008794C1 /* enums.swift */,
-				E1FC825C2B83C002008794C1 /* Events */,
-				E1FC82562B83C002008794C1 /* ExternalLibraries */,
-				E1FC82572B83C002008794C1 /* Helpers */,
-				E1FC82552B83C002008794C1 /* Models */,
-				E1FC825D2B83C002008794C1 /* Network */,
-				E1FC825A2B83C002008794C1 /* Theme */,
-				E1FC82582B83C002008794C1 /* UI */,
-				E1FC825B2B83C002008794C1 /* UnderConstructionViewController.swift */,
+				E4D086992B86342C003E3C16 /* Model */,
+				E4D086942B85FD1B003E3C16 /* Helpers */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -234,6 +208,23 @@
 			path = SmartSDKTests;
 			sourceTree = "<group>";
 		};
+		E4D086942B85FD1B003E3C16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4D086972B85FDE1003E3C16 /* Config.plist */,
+				E4D086952B85FD76003E3C16 /* ConfigHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4D086992B86342C003E3C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0869A2B863452003E3C16 /* LaunchLayoutConfigData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -262,6 +253,9 @@
 			dependencies = (
 			);
 			name = SmartSDK;
+			packageProductDependencies = (
+				E425A9AC2B8476DC000AF998 /* Lottie */,
+			);
 			productName = SmartSDK;
 			productReference = E4A2C2C02B79F01F0077CBFB /* SmartSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -311,6 +305,9 @@
 				Base,
 			);
 			mainGroup = E4A2C2B62B79F01F0077CBFB;
+			packageReferences = (
+				E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = E4A2C2C12B79F01F0077CBFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,11 +323,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FC82612B83C002008794C1 /* Models in Resources */,
 				E146AAAD2B7C64710076A224 /* yellow exclamation.json in Resources */,
 				E146AA9A2B7C64710076A224 /* UnderConstruction5.json in Resources */,
 				E146AAA02B7C64710076A224 /* UnderConstruction11.json in Resources */,
-				E1FC826C2B83C002008794C1 /* Config.plist in Resources */,
 				E146AAA42B7C64710076A224 /* UnderConstruction9.json in Resources */,
 				E146AAA32B7C64710076A224 /* UnderConstruction10.json in Resources */,
 				E146AAAF2B7C64710076A224 /* UnderConstruction1.json in Resources */,
@@ -339,23 +334,18 @@
 				E146AAA62B7C64710076A224 /* loading.json in Resources */,
 				E146AAAB2B7C64710076A224 /* UnderConstruction3.json in Resources */,
 				E146AAA52B7C64710076A224 /* UnderConstruction14.json in Resources */,
-				E1FC82662B83C002008794C1 /* Theme in Resources */,
 				E146AA9C2B7C64710076A224 /* threedots.json in Resources */,
+				E4D086982B85FDE1003E3C16 /* Config.plist in Resources */,
 				E146AAB12B7C64710076A224 /* UnderConstruction4.json in Resources */,
-				E1FC82642B83C002008794C1 /* UI in Resources */,
-				E1FC82632B83C002008794C1 /* Helpers in Resources */,
-				E1FC82692B83C002008794C1 /* Network in Resources */,
 				E146AAA72B7C64710076A224 /* UnderConstruction7.json in Resources */,
 				E146AA9B2B7C64710076A224 /* aim1.json in Resources */,
 				E146AAAC2B7C64710076A224 /* success.json in Resources */,
-				E1FC82682B83C002008794C1 /* Events in Resources */,
 				E146AAA12B7C64710076A224 /* zest_logo_animation.json in Resources */,
 				E146AAAA2B7C64710076A224 /* nowifi.json in Resources */,
 				E146AAA82B7C64710076A224 /* UnderConstruction12.json in Resources */,
 				E146AA9F2B7C64710076A224 /* UnderConstruction8.json in Resources */,
 				E146AAB22B7C64710076A224 /* animationBG1.json in Resources */,
 				E146AAAE2B7C64710076A224 /* splash_animation_1.json in Resources */,
-				E1FC82622B83C002008794C1 /* ExternalLibraries in Resources */,
 				E146AAB02B7C64710076A224 /* UnderConstruction6.json in Resources */,
 				E146AA9E2B7C64710076A224 /* UnderConstruction2.json in Resources */,
 				E146AAA92B7C64710076A224 /* UnderConstruction15.json in Resources */,
@@ -377,12 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A2C2DF2B79F40F0077CBFB /* SmartFramework.swift in Sources */,
-				E1FC82672B83C002008794C1 /* UnderConstructionViewController.swift in Sources */,
-				E1FC826A2B83C002008794C1 /* CacheKeys.swift in Sources */,
 				E4A2C2DD2B79F2420077CBFB /* LandingPageViewController.swift in Sources */,
-				E1FC826B2B83C002008794C1 /* Constants.swift in Sources */,
-				E1FC82652B83C002008794C1 /* enums.swift in Sources */,
+				E4D0869B2B863452003E3C16 /* LaunchLayoutConfigData.swift in Sources */,
 				E4A2C2C52B79F01F0077CBFB /* SmartSDK.docc in Sources */,
+				E4D086962B85FD76003E3C16 /* ConfigHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +647,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E425A9AC2B8476DC000AF998 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E425A9AB2B8476DC000AF998 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4A2C2B72B79F01F0077CBFB /* Project object */;
 }

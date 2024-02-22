@@ -11,6 +11,9 @@ import SmartSDK
 
 class ViewController: UIViewController {
     
+    let sdkInstance = SmartFramework(jsonString: "")
+    
+    
     // MARK: - Local variables
     
     // MARK: - UI referances
@@ -26,6 +29,9 @@ class ViewController: UIViewController {
     
     private func setupUI(){
         self.view.backgroundColor = .white
+    
+        let ch = ConfigHelper.sharedInstance
+
     }
 
 
@@ -34,8 +40,6 @@ class ViewController: UIViewController {
     
     // MARK: - Responsders
     @IBAction func launchButtonTapped(_ sender: Any) {
-        
-        let sdkInstance = SmartFramework(jsonString: "")
         
         let landingPage = sdkInstance.getLandingPage()
         landingPage.modalPresentationStyle = .fullScreen

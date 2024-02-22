@@ -19,4 +19,5 @@ public struct SmartFramework{
     public func getLandingPage()->UIViewController{
         return LandingPageViewController()
     }
+    
 }

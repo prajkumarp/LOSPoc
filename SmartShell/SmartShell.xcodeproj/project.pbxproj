@@ -20,6 +20,7 @@
 		E4A2C3482B79F8E00077CBFB /* SmartShellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3472B79F8E00077CBFB /* SmartShellTests.swift */; };
 		E4A2C3522B79F8E00077CBFB /* SmartShellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3512B79F8E00077CBFB /* SmartShellUITests.swift */; };
 		E4A2C3542B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C3532B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift */; };
+		E4D086842B85F77B003E3C16 /* layout1.json in Resources */ = {isa = PBXBuildFile; fileRef = E4D086832B85F77B003E3C16 /* layout1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		E4A2C34D2B79F8E00077CBFB /* SmartShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartShellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A2C3512B79F8E00077CBFB /* SmartShellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShellUITests.swift; sourceTree = "<group>"; };
 		E4A2C3532B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4D086832B85F77B003E3C16 /* layout1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layout1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +132,10 @@
 		E4A2C32C2B79F8DE0077CBFB /* SmartShell */ = {
 			isa = PBXGroup;
 			children = (
+				E4D086862B85F79B003E3C16 /* Utility */,
+				E4D086852B85F790003E3C16 /* Launch */,
 				E4A2C32D2B79F8DE0077CBFB /* AppDelegate.swift */,
 				E4A2C32F2B79F8DE0077CBFB /* SceneDelegate.swift */,
-				E4A2C3312B79F8DE0077CBFB /* ViewController.swift */,
-				E4A2C3332B79F8DE0077CBFB /* Main.storyboard */,
 				E4A2C3392B79F8DF0077CBFB /* Assets.xcassets */,
 				E4A2C33B2B79F8DF0077CBFB /* LaunchScreen.storyboard */,
 				E4A2C33E2B79F8DF0077CBFB /* Info.plist */,
@@ -157,6 +159,95 @@
 				E4A2C3532B79F8E00077CBFB /* SmartShellUITestsLaunchTests.swift */,
 			);
 			path = SmartShellUITests;
+			sourceTree = "<group>";
+		};
+		E4D086852B85F790003E3C16 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0868E2B85F80C003E3C16 /* ViewControllers */,
+				E4D0868D2B85F803003E3C16 /* Views */,
+				E4D0868C2B85F7FD003E3C16 /* UI */,
+				E4D0868B2B85F7ED003E3C16 /* Data */,
+				E4D0868A2B85F7E7003E3C16 /* Model */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E4D086862B85F79B003E3C16 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0868F2B85F838003E3C16 /* Helpers */,
+				E4D086892B85F7C8003E3C16 /* UI */,
+				E4D086882B85F7BE003E3C16 /* Data */,
+				E4D086872B85F7B8003E3C16 /* Model */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E4D086872B85F7B8003E3C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4D086882B85F7BE003E3C16 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E4D086832B85F77B003E3C16 /* layout1.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E4D086892B85F7C8003E3C16 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E4D0868A2B85F7E7003E3C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4D0868B2B85F7ED003E3C16 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E4D0868C2B85F7FD003E3C16 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E4A2C3332B79F8DE0077CBFB /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E4D0868D2B85F803003E3C16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4D0868E2B85F80C003E3C16 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4A2C3312B79F8DE0077CBFB /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E4D0868F2B85F838003E3C16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +362,7 @@
 				E4A2C33D2B79F8DF0077CBFB /* LaunchScreen.storyboard in Resources */,
 				E4A2C33A2B79F8DF0077CBFB /* Assets.xcassets in Resources */,
 				E4A2C3352B79F8DE0077CBFB /* Main.storyboard in Resources */,
+				E4D086842B85F77B003E3C16 /* layout1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +578,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartShell/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -515,7 +607,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartShell/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
