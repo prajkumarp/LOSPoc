@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>instore_education_url</key>
+	<string>app://zestlife/dashboard/home/storyly?g=40987&amp;instance=9591</string>
+	<key>app_edit_bank_details_enabled</key>
+	<string>true</string>
+	<key>copiedOtpUiText</key>
+	<string>{&quot;primaryCtaText&quot;:&quot;Copy OTP&quot;,&quot;otpText&quot;:&quot;Your OTP is&quot;,&quot;subTextAfterMerchantName&quot;:&quot;transaction&quot;,&quot;otpCopiedMessageText&quot;:&quot;OTP copied successfully&quot;,&quot;displayText&quot;:&quot;Here&apos;s the OTP for your&quot;,&quot;imageUrl&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/ed2aea8914894e08be361dd0a4378d7b.png&quot;}</string>
+	<key>three_mm_opt_out_refresh_time</key>
+	<string>5</string>
+	<key>mandate_return_url_host</key>
+	<string>staging-youraccount.zestmoney.in</string>
+	<key>onboarding_package_enabled_ios</key>
+	<string>false</string>
+	<key>edit_profile_enabled</key>
+	<string>1</string>
+	<key>home_active_transaction_card_ui_text</key>
+	<string>{&quot;cardTitleText&quot;:&quot;Your transaction is in progress&quot;,&quot;cardSubtitleText&quot;:&quot;Approve and generate OTP to proceed&quot;,&quot;cancelCtaText&quot;:&quot;Cancel&quot;,&quot;approveCtaText&quot;:&quot;Approve&quot;}</string>
+	<key>credolab_enabled</key>
+	<string>false</string>
+	<key>is_pl_kyc_enabled_ios</key>
+	<string>false</string>
+	<key>is_PL_emi_option_decending</key>
+	<string>true</string>
+	<key>support_phone_number</key>
+	<string>6269000097</string>
+	<key>is_verloop_enabled_ios</key>
+	<string>true</string>
+	<key>is_storyly_v2_enabled</key>
+	<string>true</string>
+	<key>data_permission_prompts_per_day</key>
+	<string>4</string>
+	<key>one_fa_enabled_flutter_android</key>
+	<string>false</string>
+	<key>report_transaction_bottom_sheet</key>
+	<string>{&quot;bottomSheetHeader&quot;:&quot;Submit a report&quot;,&quot;bottomSheetSubHeader&quot;:&quot;Notice something strange? tell us here&quot;,&quot;reportReasons&quot;:[&quot;I did not initiate the request&quot;,&quot;I was asked for OTP over a call, online forms or via other means&quot;,&quot;Suspicious activity with my account&quot;],&quot;textFieldHint&quot;:&quot;Additional information&quot;,&quot;CtaText&quot;:&quot;Submit&quot;}</string>
+	<key>app_update_type</key>
+	<string>0</string>
+	<key>in_app_review_enabled</key>
+	<string>true</string>
+	<key>edit_profile_enabled_post_0_10_12</key>
+	<string>1</string>
+	<key>app_status_api_sync_time</key>
+	<string>3</string>
+	<key>show_give_missed_call</key>
+	<string>0</string>
+	<key>shield_sdk_enabled_new</key>
+	<string>true</string>
+	<key>shield_sdk_enabled</key>
+	<string>false</string>
+	<key>last_emi_self_payment</key>
+	<string>true</string>
+	<key>days_required_to_show_emis_text</key>
+	<string>7</string>
+	<key>signup</key>
+	<string>0</string>
+	<key>is_gift_card_module_enabled</key>
+	<string>false</string>
+	<key>transaction_approval_landing_ui_text</key>
+	<string>{&quot;merchantRequestText&quot;:&quot;Payment request from&quot;,&quot;disclaimerText&quot;:&quot;&lt;b&gt;Don’t share this OTP with anyone.&lt;/b&gt; ZestMoney employees will never ask for OTP over call, SMS or email&quot;,&quot;cancelCtaText&quot;:&quot;Cancel transaction&quot;,&quot;continueCtaText&quot;:&quot;Approve&quot;,&quot;enablePopButton&quot;:true}</string>
+	<key>offers_for_you_enabled</key>
+	<string>true</string>
+	<key>risk_api_required_android</key>
+	<string>true</string>
+	<key>bolt_enabled</key>
+	<string>true</string>
+	<key>mandate_setup_url</key>
+	<string>https://staging-youraccount.zestmoney.in/dashboard#access_token=&lt;token&gt;&amp;expires_in=3600&amp;token_type=Bearer&amp;post_login_redirect_url=/dashboard/profile</string>
+	<key>otp_expiry_retry_count</key>
+	<string>3</string>
+	<key>product_listing_enabled</key>
+	<string>true</string>
+	<key>billpay_new_home_header_ui_enabled</key>
+	<string>false</string>
+	<key>experiment_enable_af_events_billspay</key>
+	<string>true</string>
+	<key>shop_tab_defaults</key>
+	<string>{     &quot;default_merchants&quot; : [         &quot;AmazonPay&quot;,         &quot;Flipkart&quot;,         &quot;Myntra&quot;,         &quot;Croma&quot;     ] }</string>
+	<key>two_fa_validation_expire_time</key>
+	<string>15</string>
+	<key>dlg_account_deletion_success_data</key>
+	<string>{ &quot;title&quot;:&quot;REGISTERED YOUR REQUEST&quot;, &quot;subtitle&quot;:&quot;Account deletion \nrequest submitted!&quot;, &quot;body&quot;:&quot;We will get back to you with an update shortly. Stay put while we collect more details required to complete your account deletion process.&quot; }</string>
+	<key>finbox_enabled</key>
+	<string>1</string>
+	<key>is_dlg_feature_enabled_PL_module</key>
+	<string>true</string>
+	<key>generate_transaction_otp_bottom_sheet_attemps_exceeded</key>
+	<string>{&quot;title&quot;:&quot;OTP could not be generated&quot;,&quot;subTitle&quot;:&quot;There were too many attempts to generate your OTP. For security purposes, your transaction will be cancelled. Please go back to *merchantName and retry your transaction&quot;,&quot;btnText&quot;:&quot;Continue&quot;,&quot;imageUrl&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/6c0bdeb0754e480583f872ce861d18cd.png&quot;}</string>
+	<key>is_rewards_module_active</key>
+	<string>true</string>
+	<key>two_fa_selfie_validity_in_hour</key>
+	<string>360</string>
+	<key>post_auth_enabled_android</key>
+	<string>true</string>
+	<key>biocatch_enabled</key>
+	<string>false</string>
+	<key>ff_dlg_account_deletion_dot_menu</key>
+	<string>{&quot;android&quot;:true, &quot;ios&quot;:true}</string>
+	<key>one_fa_enabled_flutter_ios</key>
+	<string>true</string>
+	<key>reactive_cli_enabled</key>
+	<string>true</string>
+	<key>disregard_auth_at_launch</key>
+	<string>1</string>
+	<key>is_storyly_enabled</key>
+	<string>true</string>
+	<key>generate_transaction_otp_bottom_sheet_ui_text</key>
+	<string>{&quot;title&quot;:&quot;Authorizing transaction from *merchantName for ₹0&quot;,&quot;subTitle&quot;:&quot;Your OTP will be displayed on the next page&quot;,&quot;btnText&quot;:&quot;Generate OTP&quot;,&quot;imageUrl&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/3b0e939fe59546a18be61a6bced3220a.png&quot;}</string>
+	<key>Exotel_Mobile_Sharing_BS</key>
+	<string>true</string>
+	<key>finbox_enabled_post_0_10_12</key>
+	<string>1</string>
+	<key>show_pl_slide_to_confirm</key>
+	<string>true</string>
+	<key>show_app_authenticator</key>
+	<string>0</string>
+	<key>finbox_consent_lifetime_launch_limit</key>
+	<string>5</string>
+	<key>merchant_recommendation_enabled</key>
+	<string>true</string>
+	<key>dlg_compliance_trigger_android</key>
+	<string>true</string>
+	<key>is_account_delete_feature_enabled_android</key>
+	<string>true</string>
+	<key>versionChannelIdiOS</key>
+	<string>[{&quot;versionCode&quot;: &quot;1000365&quot;,&quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;: &quot;1280000&quot;,&quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;: &quot;1290002&quot;,&quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;: &quot;1000365&quot;,&quot;channelId&quot;: &quot;fc4657f2-44ba-464c-8f4e-910465880d1c&quot;}]</string>
+	<key>emi_payment_delay</key>
+	<string>3</string>
+	<key>email_login</key>
+	<string>0</string>
+	<key>credit_score_enabled</key>
+	<string>true</string>
+	<key>iovation_enabled</key>
+	<string>false</string>
+	<key>allowed_url_schemes</key>
+	<string>https;http</string>
+	<key>copyDisplayOtpUiText</key>
+	<string>{ 	&quot;primaryCtaText&quot;: &quot;Copy OTP&quot;, 	&quot;subTextAfterMerchantName&quot;: &quot;transaction&quot;, 	&quot;displayText&quot;: &quot;Here&apos;s the OTP for your&quot;, 	&quot;imageUrl&quot;: &quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/9d39f0a8b41c4489b9b47ffcc133ae33.png&quot; }</string>
+	<key>onboarding_package_enabled_android</key>
+	<string>true</string>
+	<key>upi_enabled</key>
+	<string>0</string>
+	<key>mandate_cancellation_url</key>
+	<string>https://staging-web.zestmoney.in/MandatesCancellation?access_token=&lt;token&gt;&amp;token_type=Bearer&amp;expires_in=3600</string>
+	<key>channelIdIos</key>
+	<string>5400aa85-3c3d-4cd1-a659-1da6ad6a953c</string>
+	<key>risk_api_required_ios</key>
+	<string>true</string>
+	<key>is_chatwithus_ios_feature_flag_enabled</key>
+	<string>true</string>
+	<key>android_biocatch_enabled</key>
+	<string>false</string>
+	<key>show_pl_banner</key>
+	<string>true</string>
+	<key>cancel_transaction_bottom_sheet</key>
+	<string>{&quot;bottomSheetHeader&quot;:&quot;Cancel transaction?&quot;,&quot;bottomSheetSubHeader&quot;:&quot;Tell us how you would like to proceed&quot;,&quot;primaryCta&quot;:&quot;Cancel transaction&quot;,&quot;secondaryCta&quot;:&quot;Cancel and report transaction&quot;,&quot;image&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/a2c1dc5d01934730a2255f3e815e8b53.svg&quot;}</string>
+	<key>ios_biocatch_enabled</key>
+	<string>false</string>
+	<key>recent_stable_version</key>
+	<string>90007</string>
+	<key>ios_all_state_version_details</key>
+	<string>{  &quot;current&quot;: &quot;1.01.297+1000297&quot;,  &quot;recommended&quot;: &quot;1.01.297+1000297&quot;,  &quot;minStableVersion&quot;: &quot;1.01.297+1000297&quot;}</string>
+	<key>iovation_enabled_android</key>
+	<string>false</string>
+	<key>dlg_dismiss_state_android</key>
+	<string>true</string>
+	<key>iovation_enabled_ios</key>
+	<string>true</string>
+	<key>mobile_login</key>
+	<string>1</string>
+	<key>autopay_bottomsheet_text_android</key>
+	<string>{   &quot;autopayDialogTitle&quot;: &quot;Double payment alert!&quot;,   &quot;autopayDialogSubtitle&quot;: &quot;Since autopay is in progress, making any payment now may result in the double payment of your EMI.&quot;,   &quot;autopayDialogBullet1a&quot;: &quot;Autopay can take up to&quot;,   &quot;autopayDialogBullet1b&quot;: &quot;72 hours&quot;,   &quot;autopayDialogBullet1c&quot;: &quot;to update. You can check the status in the app.&quot;,   &quot;autopayDialogBullet2a&quot;: &quot;Paying now can lead to a double payment. Excess amount is&quot;,   &quot;autopayDialogBullet2b&quot;: &quot;not refundable.&quot;,   &quot;autopayDialogBullet3a&quot;: &quot;If your autopay is successful, the extra amount will be&quot;,   &quot;autopayDialogBullet3b&quot;: &quot;adjusted toward the next EMI.&quot;,   &quot;autopayDialogCtaPrimary&quot;: &quot;Wait for Autopay&quot;,   &quot;autopayDialogCtaSecondary&quot;: &quot;Make a payment anyway&quot; }</string>
+	<key>three_mm_opt_out_cashback_percent</key>
+	<string>1</string>
+	<key>finbox_lifetime_limit</key>
+	<string>100</string>
+	<key>post_auth_enabled_ios</key>
+	<string>true</string>
+	<key>home_moratorium_restructure_enabled</key>
+	<string>0</string>
+	<key>otp_screen_ui_text</key>
+	<string>{&quot;headerText&quot;:&quot;Here’s the OTP to approve your *merchantName transaction&quot;,&quot;footerText&quot;:&quot;Enter the OTP on transaction page&quot;,&quot;otp&quot;:&quot;------&quot;,&quot;copyOtpBtnText&quot;:&quot;Copy OTP&quot;,&quot;otpCopiedText&quot;:&quot;OTP copied successfully&quot;,&quot;warningImageUrl&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/ae6964eeb4224fc2a82a8abe2ba35cf0.png&quot;,&quot;phoneViewImageUrl&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/ed2aea8914894e08be361dd0a4378d7b.png&quot;}</string>
+	<key>in_app_approval_home_card_content</key>
+	<string>{
+  &quot;title&quot;: &quot;Your transaction is in progress&quot;,
+  &quot;subtitle&quot;: &quot;Approve and generate OTP to proceed&quot;,
+  &quot;primaryCta&quot;: &quot;Approve&quot;,
+  &quot;secondaryCta&quot;: &quot;Cancel&quot;
+}</string>
+	<key>screen_share_block_enabled_ios</key>
+	<string>false</string>
+	<key>shieldRemoteConfig</key>
+	<string>true</string>
+	<key>VersionCodeChannelIdAndroid</key>
+	<string>[    {     &quot;versionCode&quot;: &quot;1270000&quot;,     &quot;channelId&quot;: &quot;764fc76d-1d59-42d0-9439-65e4bde23418&quot;   },   {     &quot;versionCode&quot;: &quot;1280000&quot;,     &quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;   },   {     &quot;versionCode&quot;: &quot;1290002&quot;,     &quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;   },   {     &quot;versionCode&quot;: &quot;1000365&quot;,     &quot;channelId&quot;: &quot;fc4657f2-44ba-464c-8f4e-910465880d1c&quot;   },   {     &quot;versionCode&quot;: &quot;1300000&quot;,     &quot;channelId&quot;: &quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;   }, {     &quot;versionCode&quot;: &quot;1310000&quot;,     &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;   } , {     &quot;versionCode&quot;: &quot;1310001&quot;,     &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;   },{     &quot;versionCode&quot;: &quot;1310002&quot;,     &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;   },{     &quot;versionCode&quot;: &quot;1310003&quot;,     &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;   }, {     &quot;versionCode&quot;: &quot;1320000&quot;,     &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;   },{
+    &quot;versionCode&quot;: &quot;1320001&quot;,
+    &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;
+  },{
+    &quot;versionCode&quot;: &quot;1320002&quot;,
+    &quot;channelId&quot;: &quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;
+  },{
+    &quot;versionCode&quot;: &quot;1330001&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  },{
+    &quot;versionCode&quot;: &quot;1330002&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  }, {
+    &quot;versionCode&quot;: &quot;1330003&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  }, {
+    &quot;versionCode&quot;: &quot;1340001&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  }, {
+    &quot;versionCode&quot;: &quot;1340002&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  }, {
+    &quot;versionCode&quot;: &quot;1340003&quot;,
+    &quot;channelId&quot;: &quot;514bb32f-3c39-4a78-b25c-cb82a75aa1d3&quot;
+  }]</string>
+	<key>is_logger_enabled</key>
+	<string>true</string>
+	<key>finbox_consent_prompt_enabled</key>
+	<string>true</string>
+	<key>channelIdAndroid</key>
+	<string>fc4657f2-44ba-464c-8f4e-910465880d1c</string>
+	<key>billpay_feature_enabled</key>
+	<string>false</string>
+	<key>reported_transaction_bottom_sheet</key>
+	<string>{&quot;bottomSheetHeader&quot;:&quot;Transaction reported&quot;,&quot;bottomSheetSubHeader&quot;:&quot;Thank you for your help, we will look into the details of this transaction&quot;,&quot;bottomSheetImage&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/1e6f5609f5eb488c9bb5f356320fa9f5.png&quot;,&quot;primaryCta&quot;:&quot;Go Home&quot;}</string>
+	<key>dlg_delete_account_ui_data</key>
+	<string>{ &quot;title&quot; : &quot;Are you sure you want to delete your account?\nWe wish you could have stayed longer!&quot;, &quot;subtitle&quot;:&quot;Please note that upon submission of this deletion request, you confirm that:&quot;, &quot;description&quot;:[ &quot;1. You have no outstanding credit facility availed on the ZestMoney platform. This includes payments due towards EMIs on loans, Bolt and personal loans.&quot;, &quot;2. Your ZestMoney account will be permanently deleted. You will no longer have access to your account and any facilities associated with the ZestMoney platform.&quot;, &quot;3. Your ZestMoney credit limit will be permanently deactivated, you will no longer be able to transact with us.&quot;, &quot;4. You will not receive any further communication from ZestMoney, regarding promotions, sales and updates.&quot;, &quot;5. You have no pending or potential grievances regarding your previous dealings with ZestMoney. Please ensure that all your tickets with ZestMoney are closed before proceeding any further.&quot;, &quot;6. Please note that the rejection of your account deletion request may be impacted by multiple factors, which may include&quot;, &quot;a. Any outstanding loans availed from ZestMoney, including but not limited to EMIs, Bolt payments and personal loans.&quot;, &quot;b. Ongoing application towards availing of a personal loan from ZestMoney.&quot;, &quot;c. Any pending dues towards your Bolt credit limit.&quot;, &quot;d. In case your account has been identified under high chances of fraudulent activity. Please note that the risk calculations are completed and analysed by our internal software.&quot;], &quot;footerTitle&quot;:&quot;You understand that we will be required to use, disclose or retain personal data that you have shared with us if mandated by the law, rules and regulations, government officials or by any regulatory authorities with the correct authorisation to access such information. These authorities may include but are not limited to RBI, the Government of India etc. Your information may also be shared if it is imperative to complete any legal obligations or for the purpose of audit requirements.&quot;, &quot;footerSubtitle&quot;:&quot;Confirmation will permanently delete your ZestMoney account and you will lose access to any data associated with your ZestMoney account.&quot; }</string>
+	<key>is_rewards_enabled</key>
+	<string>true</string>
+	<key>is_dlg_permissions_required_android</key>
+	<string>true</string>
+	<key>finbox_xiaomi_service_sms_handling</key>
+	<string>0</string>
+	<key>one_fa_enabled_android</key>
+	<string>true</string>
+	<key>gmail_login</key>
+	<string>0</string>
+	<key>data_permission_prompts_per_lifetime</key>
+	<string>5</string>
+	<key>is_ical_enabled</key>
+	<string>false</string>
+	<key>is_cash_loan_quick_link_enabled</key>
+	<string>true</string>
+	<key>is_zendesk_enabled_ios</key>
+	<string>false</string>
+	<key>finbox_feature_enabled</key>
+	<string>true</string>
+	<key>pl_web_enabled</key>
+	<string>false</string>
+	<key>verloop_enabled</key>
+	<string>true</string>
+	<key>is_pl_kyc_enabled_android</key>
+	<string>true</string>
+	<key>cancelled_transaction_bottom_sheet</key>
+	<string>{&quot;bottomSheetHeader&quot;:&quot;Transaction Cancelled&quot;,&quot;bottomSheetSubHeader&quot;:&quot;Your transaction has been sucessfully cancelled.&quot;,&quot;image&quot;:&quot;https://zest-cms.s3.ap-south-1.amazonaws.com/images/a2c1dc5d01934730a2255f3e815e8b53.svg&quot;,&quot;primaryCta&quot;:&quot;Go home&quot;,&quot;redirectionText&quot;:&quot;You will be redirected in&quot;}</string>
+	<key>biocatch_csid_ttl</key>
+	<string>60000</string>
+	<key>finbox_consent_per_day_launch_limit</key>
+	<string>3</string>
+	<key>finbox_daily_limit</key>
+	<string>15</string>
+	<key>is_spotlight_enabled</key>
+	<string>true</string>
+	<key>iosapp_version</key>
+	<string>{&quot;current&quot;:&quot;1.01.367+1000367&quot;,&quot;recommended&quot;:&quot;1.01.367+1000367&quot;,&quot;isFlexible&quot;:true}</string>
+	<key>quick_link_enabled</key>
+	<string>true</string>
+	<key>is_rcli_enabled</key>
+	<string>true</string>
+	<key>is_controlling_rating</key>
+	<string>true</string>
+	<key>is_shield_intelligence_enabled</key>
+	<string>true</string>
+	<key>one_fa_enabled_ios</key>
+	<string>false</string>
+	<key>is_billpay_ios_feature_flag_enabled</key>
+	<string>true</string>
+	<key>is_sanction_letter_enabled</key>
+	<string>false</string>
+	<key>is_dlg_compliance_feature_enabled_ios</key>
+	<string>true</string>
+	<key>is_dlg_compliance_feature_page_dismissable_ios</key>
+	<string>true</string>
+	<key>is_dlg_compliance_feature_trigger_enabled_ios</key>
+	<string>true</string>
+	<key>profile_deletion_feature_enabled_ios</key>
+	<string>true</string>
+	<key>dlg_compliance_screen_texts</key>
+	<string>{   &quot;homeScreenPopup&quot;: {     &quot;header&quot;: &quot;Please complete these \nsteps mandated by RBI&quot;,     &quot;footer&quot;: &quot;Mandated by Reserve Bank of India&quot;   },   &quot;complianceCard&quot;: {     &quot;dataSharingConsent&quot;: {       &quot;title&quot;: &quot;Allow permission&quot;,       &quot;subtitle&quot;:           &quot;I hereby agree that ZestMoney has permission to share my personal information wherevever it is necessary for the provision of loan products&quot;,       &quot;moreDetailsText&quot;: &quot;Know more&quot;,       &quot;primaryButtonCta&quot;: &quot;I agree&quot;     },     &quot;houseHoldIncomeConsent&quot;: {       &quot;title&quot;: &quot;Verify income&quot;,       &quot;subtitle&quot;: &quot;My household income is more than ₹25,000 per month&quot;,       &quot;moreDetailsText&quot;: &quot;Know more&quot;,       &quot;primaryButtonCta&quot;: &quot;I agree&quot;     }   },   &quot;incomeKnowMoreSectionTexts&quot;: {     &quot;backgroundBanner&quot;:         &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/consent_banner.png&quot;,     &quot;householdIncomeScreenTitle&quot;:         &quot;Household income refers\nto your family income&quot;,     &quot;householdIncomeScreenSubtitle&quot;: &quot;How do you calculate household income?&quot;,     &quot;whyWeNeedInformation&quot;: &quot;Why do we need this information?&quot;,     &quot;actInAccordanceText&quot;:         &quot;To act in accordance with updated RBI guidelines, we are currently processing loans only to individuals with household income more than ₹25,000 per month.&quot;,     &quot;marriedSection&quot;: {       &quot;title&quot;: &quot;If you are Married&quot;,       &quot;subtitle&quot;:           &quot;Consider your\nspouse&apos;s income and\nunmarried children&apos;s\nincome&quot;,       &quot;imageUrl&quot;:           &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/friends.png&quot;     },     &quot;unMarriedSection&quot;: {       &quot;title&quot;: &quot;If you are Unmarried&quot;,       &quot;subtitle&quot;: &quot;Consider your\nparent&apos;s income and\nsibling&apos;s income&quot;,       &quot;imageUrl&quot;:           &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/unmarried.png&quot;     },     &quot;ctaText&quot;: &quot;Got it&quot;   },   &quot;dataSharingConsent&quot;: {     &quot;description&quot;:         &quot;I hereby agree that ZestMoney has permission to share my personal information wherevever it is necessary for the provision of loan products&quot;,     &quot;ctaText&quot;: &quot;Know more&quot;,     &quot;importantSymbol&quot;: &quot;*&quot;   },   &quot;houseHoldIncomeConsent&quot;: {     &quot;description&quot;: &quot;My household income is more than ₹25,000 per month&quot;,     &quot;ctaText&quot;: &quot; Know more&quot;,     &quot;importantSymbol&quot;: &quot;*&quot;   } }</string>
+	<key>dlg_household_income_consent_ui_data</key>
+	<string>{   &quot;houseHoldIncomeConsent&quot;: {     &quot;description&quot;: &quot;My household income is more than ₹25,000 per month&quot;,     &quot;ctaText&quot;: &quot;Know more&quot;,     &quot;importantSymbol&quot;: &quot;*&quot;   } }</string>
+	<key>dlg_income_consent_details_section_ui_data</key>
+	<string>{   &quot;incomeKnowMoreSectionTexts&quot;: {     &quot;backgroundBanner&quot;: &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/consent_banner.png&quot;,     &quot;householdIncomeScreenTitle&quot;: &quot;Household income refers\nto your family income&quot;,     &quot;householdIncomeScreenSubtitle&quot;: &quot;How do you calculate household income?&quot;,     &quot;whyWeNeedInformation&quot;: &quot;Why do we need this information?&quot;,     &quot;actInAccordanceText&quot;: &quot;To act in accordance with updated RBI guidelines, we are currently processing loans only to individuals with household income more than ₹25,000 per month.&quot;,     &quot;marriedSection&quot;: {       &quot;title&quot;: &quot;If you are Married&quot;,       &quot;subtitle&quot;: &quot;Consider your\nspouse&apos;s income and\nunmarried children&apos;s\nincome&quot;,       &quot;imageUrl&quot;: &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/friends.png&quot;     },     &quot;unMarriedSection&quot;: {       &quot;title&quot;: &quot;If you are Unmarried&quot;,       &quot;subtitle&quot;: &quot;Consider your\nparents&apos; income and\nsiblings&apos; income&quot;,       &quot;imageUrl&quot;: &quot;https://assets.zestmoney.in/assets/customers/compliance-consents/unmarried.png&quot;     },     &quot;ctaText&quot;: &quot;Got it&quot;   } }</string>
+	<key>dlg_data_sharing_consent_ui_text</key>
+	<string>{   &quot;dataSharingConsent&quot;: {     &quot;description&quot;: &quot;I hereby agree that ZestMoney has permission to share my personal information wherever it is necessary for the provision of loan products&quot;,     &quot;ctaText&quot;: &quot;Know more&quot;,     &quot;importantSymbol&quot;: &quot;*&quot;   } }</string>
+	<key>is_dlg_feature_enabled_email_page_ios</key>
+	<string>true</string>
+	<key>is_dlg_feature_enabled_onboarding_module_ios</key>
+	<string>true</string>
+	<key>account_deletion_page_texts_ios</key>
+	<string>&apos;accountDeletionTexts&apos;: {
+    &apos;title&apos;: &apos;Account deletion&apos;,
+    &apos;deletionConsequences&apos;: {
+      &apos;titles&apos;: [
+        &apos;Are you sure you want to delete your account? We wish you could have stayed longer!&apos;,
+        &apos;Please note that upon submission of this deletion request, you confirm that:&apos;,
+      ],
+      &apos;consequences&apos;: [
+        &apos;You have no outstanding credit facility availed on the ZestMoney platform. This includes payments due towards EMIs on loans, Bolt and personal loans.&apos;,
+        &apos;Your ZestMoney account will be permanently deleted. You will no longer have access to your account and any facilities associated with the ZestMoney platform.&apos;,
+        &apos;Your ZestMoney credit limit will be permanently deactivated, you will no longer be able to transact with us.&apos;,
+        &apos;You will not receive any further communication from ZestMoney, regarding promotions, sales and updates.&apos;,
+        &apos;You have no pending or potential grievances regarding your previous dealings with ZestMoney. Please ensure that all your tickets with ZestMoney are closed before proceeding any further.&apos;,
+        &apos;Please note that the rejection of your account deletion request may be impacted by multiple factors, which may include&apos;,
+        [
+          &apos;Any outstanding loans availed from ZestMoney, including but not limited to EMIs, Bolt payments and personal loans.&apos;,
+          &apos;Ongoing application towards availing of a personal loan from ZestMoney&apos;,
+          &apos;Any pending dues towards your Bolt credit limit.&apos;,
+          &apos;In case your account has been identified under high chances of fraudulent activity. Please note that the risk calculations are completed and analysed by our internal software.&apos;
+        ],
+      ]
+    },
+    &apos;descriptions&apos;: [
+      &apos;You understand that we will be required to use, disclose or retain personal data that you have shared with us if mandated by the law, rules and regulations, government officials or by any regulatory authorities with the correct authorisation to access such information. These authorities may include but are not limited to RBI, the Government of India etc. Your information may also be shared if it is imperative to complete any legal obligations or for the purpose of audit requirements.&apos;,
+      &apos;Confirmation will permanently delete your ZestMoney account and you will lose access to any data associated with your ZestMoney account.&apos;
+    ],
+    &apos;primayButtonCTA&apos;: &apos;Submit delete request&apos;
+  }</string>
+	<key>screen_share_block_enabled_android</key>
+	<string>false</string>
+	<key>autopay_dialog_subtitle</key>
+	<string>Repaying now can lead to a double payment. Any excess amount will be refunded in 5 days.</string>
+	<key>autopay_dialog_title</key>
+	<string>Double payment alert!</string>
+	<key>autopay_dialog_primary_cta</key>
+	<string>Wait for Autopay</string>
+	<key>autopay_dialog_secondary_cta</key>
+	<string>Make a payment anyway</string>
+	<key>ff_storyly_enabled</key>
+	<string>{&quot;android&quot;:true,&quot;ios&quot;:true}</string>
+	<key>ff_spotlight_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: false}</string>
+	<key>ff_rcli_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_rewards_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;:true}</string>
+	<key>ff_one_fa_enabled</key>
+	<string>{&quot;android&quot;:true, &quot;ios&quot;: true}</string>
+	<key>ff_risk_api_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_billpay_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_profile_deletion_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_onboarding_module_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_iovation_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_ical_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_cash_loan_quick_link_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_pl_banner_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_pl_kyc_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: false}</string>
+	<key>ff_pl_slide_to_confirm_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_onboarding_module_dlg_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_dlg_compliance_page_dismissable_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_shield_intelligence_enabled</key>
+	<string>{&quot;android&quot;: false, &quot;ios&quot;: true}</string>
+	<key>ff_dlg_compliance_feature_trigger_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_screen_share_block_enabled</key>
+	<string>{&quot;android&quot;: false, &quot;ios&quot;: false}</string>
+	<key>ff_PL_emi_option_decending_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_gift_card_module_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: false}</string>
+	<key>ff_dlg_compliance_feature_PL_module_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_dlg_compliance_feature_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_dlg_compliance_feature_email_page_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_app_edit_bank_details_enabled</key>
+	<string>{&quot;android&quot;:true,&quot;ios&quot;:true}</string>
+	<key>ff_finbox_feature_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_offers_for_you_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_pl_web_enabled</key>
+	<string>{&quot;android&quot;: false, &quot;ios&quot;: false}</string>
+	<key>ff_product_listing_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_quick_link_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_verloop_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_zendesk_enabled</key>
+	<string>{&quot;android&quot;: false, &quot;ios&quot;: false}</string>
+	<key>ff_logger_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_revoke_account_deletion_on_pdpage_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_revoke_account_deletion_on_homepage_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_revoke_account_deletion_enabled</key>
+	<string>{&quot;android&quot;: true, &quot;ios&quot;: true}</string>
+	<key>ff_channel_id</key>
+	<string>{&quot;android&quot;:[{&quot;versionCode&quot;:&quot;1000365&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1280000&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1290002&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000365&quot;,&quot;channelId&quot;:&quot;fc4657f2-44ba-464c-8f4e-910465880d1c&quot;},{&quot;versionCode&quot;:&quot;1000378&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000386&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000387&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000388&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000389&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000392&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000393&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000394&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000395&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000396&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000397&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000399&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;}],&quot;ios&quot;:[{&quot;versionCode&quot;:&quot;1270000&quot;,&quot;channelId&quot;:&quot;764fc76d-1d59-42d0-9439-65e4bde23418&quot;},{&quot;versionCode&quot;:&quot;1280000&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1290002&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000365&quot;,&quot;channelId&quot;:&quot;fc4657f2-44ba-464c-8f4e-910465880d1c&quot;},{&quot;versionCode&quot;:&quot;1300000&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1310000&quot;,&quot;channelId&quot;:&quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;},{&quot;versionCode&quot;:&quot;1310001&quot;,&quot;channelId&quot;:&quot;eb5b9502-8b29-11ed-a1eb-0242ac120002&quot;},{&quot;versionCode&quot;:&quot;1290007&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000378&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;},{&quot;versionCode&quot;:&quot;1000386&quot;,&quot;channelId&quot;:&quot;5400aa85-3c3d-4cd1-a659-1da6ad6a953c&quot;}]}</string>
+	<key>ff_fallback_channel_id_android</key>
+	<string>fc4657f2-44ba-464c-8f4e-910465880d1c</string>
+	<key>ff_fallback_channel_id_ios</key>
+	<string>5400aa85-3c3d-4cd1-a659-1da6ad6a953c</string>
+</dict>
+</plist>
