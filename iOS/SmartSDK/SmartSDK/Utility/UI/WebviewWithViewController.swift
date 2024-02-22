@@ -25,7 +25,10 @@ class WebviewWithViewController : UIViewController{
     var closeButton: UIButton = UIButton(frame: CGRectZero)
     let titleLabel : UILabel = UILabel(frame: CGRectZero)
     
-    var webviewTopAnchorConstant = 8
+    var webviewTopAnchorConstant = 0
+    var webviewBottomAnchorConstant = 0
+    var leadingAnchorConstant = 0
+    var trailingAnchorConstant = 0
     // MARK: - Lifecycle
     
     convenience init(title: String, subTitle: String, urlPath: String, showBack: Bool, showClose: Bool) {
@@ -97,14 +100,19 @@ class WebviewWithViewController : UIViewController{
     // MARK: - Private Methods
     
     private func setupUI(){
-        self.view.backgroundColor = .white
         
         if(navigationController != nil){
             
-            let backButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(backButtonClicked(_:)))
-            backButton.image = UIImage(systemName: "arrow.left")!.withTintColor(.blue, renderingMode: .alwaysTemplate)
-            backButton.tintColor = .black
-            self.navigationItem.leftBarButtonItem = backButton
+            self.view.backgroundColor = .white
+            
+            if(showBack){
+                let backButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(backButtonClicked(_:)))
+                backButton.image = UIImage(systemName: "arrow.left")!.withTintColor(.blue, renderingMode: .alwaysTemplate)
+                backButton.tintColor = .black
+                self.navigationItem.leftBarButtonItem = backButton
+            }else{
+                self.navigationItem.hidesBackButton = true
+            }
             
             let closeButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(CloseButtonClicked(_:)))
             closeButton.image = UIImage(systemName: "xmark.circle")!.withTintColor(.blue, renderingMode: .alwaysTemplate)
@@ -120,12 +128,24 @@ class WebviewWithViewController : UIViewController{
             self.showTitle = false
             self.setupHeader()
             self.setupWebView()
-            
-        
-            
-            
         }
         else{
+            
+            if(ctaValues?.windowType == .bottomSheet){
+                self.view.backgroundColor = .white
+            }else if (ctaValues?.windowType == .modal){
+                self.view.backgroundColor = .clear
+                webviewTopAnchorConstant = -8
+                webviewBottomAnchorConstant = -80
+                leadingAnchorConstant = 40
+                trailingAnchorConstant = -40
+                
+                headerView.clipsToBounds = true
+                headerView.layer.cornerRadius = 8
+                
+                webView.clipsToBounds = true
+                webView.layer.cornerRadius = 8
+            }
             self.setupBackButton()
             self.setupCloseButton()
             self.setupTitle()
@@ -196,10 +216,11 @@ class WebviewWithViewController : UIViewController{
         self.view.addSubview(headerView)
         
         headerView.topAnchor.constraint(equalTo: self.view.topAnchor,constant: 8).isActive = true
-        headerView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
-        headerView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
+        headerView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor,constant: CGFloat(leadingAnchorConstant)).isActive = true
+        headerView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor,constant: CGFloat(trailingAnchorConstant)).isActive = true
         headerView.heightAnchor.constraint(equalToConstant:CGFloat(heightofHeader)).isActive = true
         
+        headerView.backgroundColor = .white
 
     }
     
@@ -210,9 +231,9 @@ class WebviewWithViewController : UIViewController{
         webView.navigationDelegate = self
         webView.translatesAutoresizingMaskIntoConstraints = false
         webView.topAnchor.constraint(equalTo: headerView.bottomAnchor,constant: CGFloat(webviewTopAnchorConstant)).isActive = true
-        webView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor,constant: -8).isActive = true
-        webView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor,constant: 8).isActive = true
-        webView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor,constant: -8).isActive = true
+        webView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor,constant: CGFloat(webviewBottomAnchorConstant)).isActive = true
+        webView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor,constant: CGFloat(leadingAnchorConstant)).isActive = true
+        webView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor,constant: CGFloat(trailingAnchorConstant)).isActive = true
     }
     
     

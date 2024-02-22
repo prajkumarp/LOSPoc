@@ -1,7 +1,7 @@
 {
   "buttons": [
     {
-      "text": "web fullscreen with back",
+      "text": "web fullscreen with back and close",
       "renderMode" : "web",
       "windowType" : "fullscreen",
       "url": "http://www.yandex.com",
@@ -9,6 +9,17 @@
         "isVisible" : true,
         "showClose" : true,
         "showBack" : true
+      }
+    },
+    {
+      "text": "web fullscreen without back, with close",
+      "renderMode" : "web",
+      "windowType" : "fullscreen",
+      "url": "http://www.yandex.com",
+      "header": {
+        "isVisible" : true,
+        "showClose" : true,
+        "showBack" : false
       }
     },
     {
@@ -34,7 +45,18 @@
       }
     },
     {
-      "text": "web bottom sheet with close",
+      "text": "web bottom sheet with back and close",
+      "renderMode" : "web",
+      "windowType" : "bottomSheet",
+      "url": "https://www.naver.com/",
+      "header": {
+        "isVisible" : true,
+        "showClose" : true,
+        "showBack" : true
+      }
+    },
+    {
+      "text": "web bottom sheet without back and with close",
       "renderMode" : "web",
       "windowType" : "bottomSheet",
       "url": "https://www.naver.com/",
