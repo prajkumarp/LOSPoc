@@ -156,15 +156,18 @@ class LandingPageViewController: UIViewController{
         case .modal:
             do {
                 let webviewController = WebviewWithViewController(_ctaValues: selectedItem)
-                webviewController.modalPresentationStyle = .popover
+                webviewController.modalPresentationStyle = .formSheet
                 webviewController.isModalInPresentation = true
+                
+                
                 self.present(webviewController, animated: true, completion: nil)
             }
         case .bottomSheet:
             do {
                 let webviewController = WebviewWithViewController(_ctaValues: selectedItem)
-                webviewController.modalPresentationStyle = .popover
+                webviewController.modalPresentationStyle = .pageSheet
                 webviewController.isModalInPresentation = true
+                
                 self.present(webviewController, animated: true, completion: nil)
             }
         }

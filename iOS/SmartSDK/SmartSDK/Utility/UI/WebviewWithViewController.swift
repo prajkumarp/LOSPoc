@@ -56,6 +56,7 @@ class WebviewWithViewController : UIViewController{
         self.setBackButtonVisibility(should: self.showBack)
         self.setCloseButtonStateVisbiity(should: self.showClose)
         self.loadWebPage(for: self.urlPath)
+//        navigationItem.hidesBackButton = true
     }
     
     func loadWebPage(for urlPath:String) {
@@ -169,7 +170,6 @@ class WebviewWithViewController : UIViewController{
     }
     
     private func setupTitle(){
-        navigationItem.hidesBackButton = true
 //         Create the title for the page
         titleLabel.text = self.titleText
         titleLabel.textColor = ThemeManager.sharedInstance.primaryTheme.palette.baseColor.base1
